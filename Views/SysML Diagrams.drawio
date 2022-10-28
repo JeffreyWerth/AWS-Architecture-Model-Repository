@@ -1,0 +1,55 @@
+<mxfile host="65bd71144e">
+    <diagram id="QSfhJBf5ircrMT_J_uWY" name="Page-1">
+        <mxGraphModel dx="67" dy="44" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" value="&lt;p style=&quot;margin: 13px&quot;&gt;&lt;b&gt;&lt;i&gt;SysML Diagram&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;" style="shape=rect;html=1;overflow=fill;whiteSpace=wrap;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="376" y="40" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;p style=&quot;margin: 13px&quot;&gt;&lt;b&gt;&lt;i&gt;Behavior Diagram&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;" style="shape=rect;html=1;overflow=fill;whiteSpace=wrap;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="110" y="140" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;p style=&quot;margin: 13px&quot;&gt;&lt;b&gt;&lt;i&gt;Requirements Diagram&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;" style="shape=rect;html=1;overflow=fill;whiteSpace=wrap;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="370" y="140" width="101" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="&lt;p style=&quot;margin: 13px&quot;&gt;&lt;b&gt;&lt;i&gt;Structure Diagram&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;" style="shape=rect;html=1;overflow=fill;whiteSpace=wrap;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="653" y="140" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="verticalAlign=bottom;html=1;ellipse;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="418" y="104" width="4" height="4" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="edgeStyle=elbowEdgeStyle;html=1;endSize=12;endArrow=block;endFill=0;elbow=horizontal;rounded=0;" edge="1" source="10" parent="1">
+                    <mxGeometry x="1" relative="1" as="geometry">
+                        <mxPoint x="420" y="81" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="" style="edgeStyle=elbowEdgeStyle;html=1;elbow=vertical;verticalAlign=bottom;endArrow=none;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="10" parent="1" target="6">
+                    <mxGeometry x="1" relative="1" as="geometry">
+                        <mxPoint x="490" y="131" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="570" y="106"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="" style="edgeStyle=elbowEdgeStyle;html=1;elbow=vertical;verticalAlign=bottom;endArrow=none;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="10" parent="1" target="4">
+                    <mxGeometry x="1" relative="1" as="geometry">
+                        <mxPoint x="350" y="131" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="300" y="106"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" value="" style="edgeStyle=elbowEdgeStyle;html=1;elbow=vertical;verticalAlign=bottom;endArrow=none;rounded=0;entryX=0.495;entryY=0.003;entryDx=0;entryDy=0;exitX=0.505;exitY=0.801;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="10" target="5">
+                    <mxGeometry x="1" relative="1" as="geometry">
+                        <mxPoint x="703" y="150" as="targetPoint"/>
+                        <mxPoint x="432" y="116" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="440" y="120"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

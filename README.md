@@ -6,6 +6,22 @@ The AWS SysML Architecture Model Repository, is an open source project on GitHub
 
 The repository will be organize using the following pacjkages ..............
 
-## SysML Standards
+### SysML Diagrams
+
+#### Structure Diagrams
+
+#### Behavioral Diagrams
+
+#### Requirements Diagrams
+
+## Modeling and SysML Standards
+
+### Primary Standards
+
+https://www.omg.org/spec/SysML/1.6/Beta1/PDF
+
+### Additional References
+
+## Software and Open Source Tools
 
 ## SysML Modeling Notes and Examples
