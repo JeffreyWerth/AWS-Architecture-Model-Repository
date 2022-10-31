@@ -8,7 +8,7 @@ The repository will be organize using the following pacjkages ..............
 
 ### SysML Diagrams
 
-![SysML Diagram](images/SysML_Diagrans.drawio.png)
+https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/images/SysML_Diagrams.drawio.svg
 
 #### Structure Diagrams
 
