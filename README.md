@@ -8,7 +8,7 @@ The repository will be organize using the following pacjkages ..............
 
 ### SysML Diagrams
 
-![SysML Diagrams](Views/SysML Diagrams.svq)
+(Views/SysML_Diagrams.svq)
 
 #### Structure Diagrams
 
