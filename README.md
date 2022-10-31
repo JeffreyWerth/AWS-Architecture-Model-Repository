@@ -8,7 +8,7 @@ The repository will be organize using the following pacjkages ..............
 
 ### SysML Diagrams
 
-![SysML Diagram](images/SysML_Diagrans.svg)
+![SysML Diagram](images/SysML_Diagrans.drawio.svg)
 
 #### Structure Diagrams
 
