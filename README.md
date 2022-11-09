@@ -8,7 +8,7 @@ At the end of this independent project, the student should have an awareness of:
 
 - Motivation of model-based systems engineering approach
 - SysML diagrams and basic language concepts
-- How SysML us used as part of an MBSE process by the application of Object-Oriented Systems Engineering Method (OOSEM).
+- How SysML is used as part of an MBSE process by the application of Object-Oriented Systems Engineering Method (OOSEM).
 
 ## Scope
 
