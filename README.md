@@ -42,7 +42,7 @@ https://www.omg.org/spec/SysML/1.6/Beta1/PDF
 
 ### Additional References
 
-## Repository Packages
+## AWS Model Repository Packages
 
 The repository will be organize using the following packages ..............
 
