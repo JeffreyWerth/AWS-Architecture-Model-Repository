@@ -50,12 +50,20 @@ The repository will be organize using the following packages ..............
 
 ### SysML Modeling Notes and Examples
 
-#### S3 [Model Description and Dictionary]
+#### AWS S3 Service [Model Description and Dictionary]
 
-#### S3 [Structure Diagrams]
+#### AWS S3 Service [Structure Diagrams]
 
-![S3 Bucket](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/Packages/S3/AWS%20S3%20Service-S3%20Bucket%20bdd.svg)
+##### AWS S3 Service Bucket bdd
 
-#### S3 [Behavioral Diagrams]
+![AWS S3 Service Bucket](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/Packages/S3/AWS%20S3%20Service-S3%20Bucket%20bdd.svg)
 
-#### S3 [Requirements Diagrams]
+##### S3 Service Storage Classes bdd
+
+![AWS S3 Service Storage Classes](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/Packages/S3/AWS%20S3%20Service-S3%20Storage%20Classes%20bdd.svg)
+
+#### S3 Service [Behavioral Diagrams]
+
+![AWS S3 Service Lifecycle](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/Packages/S3/AWS%20S3%20Service-S3%20Lifecycle%20stm.svg)
+
+#### S3 Service [Requirements Diagrams]
