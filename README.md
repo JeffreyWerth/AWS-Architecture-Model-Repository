@@ -26,11 +26,11 @@ The submission shall have the following sections.
 
 ### Model Description and Dictionary
 
-#### Structure Diagrams
+### Structure Diagrams
 
-#### Behavioral Diagrams
+### Behavioral Diagrams
 
-#### Requirements Diagrams
+### Requirements Diagrams
 
 ## Modeling and SysML Standards
 
@@ -55,8 +55,8 @@ The repository will be organize using the following packages ..............
 
 #### S3 [Model Description and Dictionary]
 
-##### S3 [Structure Diagrams]
+#### S3 [Structure Diagrams]
 
-##### S3 [Behavioral Diagrams]
+#### S3 [Behavioral Diagrams]
 
-##### S3 [Requirements Diagrams]
+#### S3 [Requirements Diagrams]
