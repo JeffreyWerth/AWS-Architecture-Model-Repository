@@ -22,15 +22,12 @@ Attached in this repository, is an AWS SysML Architecture Model Dictionary and G
 
 The independent project submission for any of the model elements chosen by the Systems Engineer, shall follow the requirements of OMG Systems Modeling Language version 1.6. The model views shall follow the following GitHub S3 Example under SysML Modeling Notes and Examples, with the intent to follow the OMG Standards when presenting the views of the system under consideration. When starting a new project recomend forking this repository and restructuring to follow the file structure and then deleting everything in the README section up to the SysML Modeling Notes and Examples to submit your project.
 
-The submission shall have the following sections.
+The submission shall have the following sections:
 
-### Model Description and Dictionary
-
-### Structure Diagrams
-
-### Behavioral Diagrams
-
-### Requirements Diagrams
+- Model Description and Dictionary
+- Structure Diagrams
+- Behavioral Diagrams
+- Requirements Diagrams
 
 ## Modeling and SysML Standards
 
