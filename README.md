@@ -33,7 +33,7 @@ The submission shall have the following sections:
 
 ### SysML Diagrams
 
-![SysML Diagrams](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/views/SysML_Diagrams.svg)
+![SysML Diagrams](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/Views/SysML_Diagrams.svg)
 
 ### Primary Standards
 
