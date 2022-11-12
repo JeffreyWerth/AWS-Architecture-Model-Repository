@@ -20,15 +20,11 @@ Attached in this repository, is an AWS SysML Architecture Model Dictionary and G
 
 ## Expected Results and Using Github
 
-The independent project submission for any of the model elements chosen by the Systems Engineer, shall follow the requirements of OMG Systems Modeling Language version 1.6. The model views shall follow the following GitHub Repo Template TBD S3 Example, with the intent of model under development for the modeler.
+The independent project submission for any of the model elements chosen by the Systems Engineer, shall follow the requirements of OMG Systems Modeling Language version 1.6. The model views shall follow the following GitHub S3 Example under SysML Modeling Notes and Examples, with the intent to follow the OMG Standards when presenting the views of the system under consideration. When starting a new project recomend forking this repository and restructuring to follow the file structure and then deleting everything in the README section up to the SysML Modeling Notes and Examples to submit your project.
 
-## Repository Packages
+The submission shall have the following sections.
 
-The repository will be organize using the following pacjkages ..............
-
-### SysML Diagrams
-
-![SysML Diagrams](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/images/SysML_Diagrams.svg)
+### Model Description and Dictionary
 
 #### Structure Diagrams
 
@@ -38,6 +34,10 @@ The repository will be organize using the following pacjkages ..............
 
 ## Modeling and SysML Standards
 
+### SysML Diagrams
+
+![SysML Diagrams](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/images/SysML_Diagrams.svg)
+
 ### Primary Standards
 
 OMG SysML available specification (formal/2007-09-01)
@@ -45,6 +45,18 @@ https://www.omg.org/spec/SysML/1.6/Beta1/PDF
 
 ### Additional References
 
+## Repository Packages
+
+The repository will be organize using the following packages ..............
+
 ## Software and Open Source Tools
 
-## SysML Modeling Notes and Examples
+### SysML Modeling Notes and Examples
+
+#### S3 [Model Description and Dictionary]
+
+##### S3 [Structure Diagrams]
+
+##### S3 [Behavioral Diagrams]
+
+##### S3 [Requirements Diagrams]
