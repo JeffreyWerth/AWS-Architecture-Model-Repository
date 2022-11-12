@@ -54,7 +54,7 @@ The repository will be organize using the following packages ..............
 
 #### S3 [Structure Diagrams]
 
-![S3 Bucket](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/Packages/S3/AWS S3 Service-S3 Bucket bdd.svg)
+![S3 Bucket](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/Packages/S3/AWS%20S3%20Service-S3%20Bucket%20bdd.svg)
 
 #### S3 [Behavioral Diagrams]
 
