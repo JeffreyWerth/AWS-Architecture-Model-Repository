@@ -25,11 +25,16 @@ The independent project submission for any of the model elements chosen by the S
 The submission shall have the following sections:
 
 - Model Description and Dictionary
-- Structure Diagrams
-- Behavioral Diagrams
-- Requirements Diagrams
+- Structure Diagram Views
+- Behavioral Diagram Views
+- Requirements Diagram Views
 
 ## Modeling and SysML Standards
+
+SysMl is developed to provide simple but powerful constructs for modeling a wide range of systems engineering problems. Is perfect in addressing system complexity by specifying requirements, structure, behavior, allocations, and constraints on system properties to support engineering analysis/system tradeoffs.
+
+SysML reuses a subset of UML 2 and provides additional extensions to satisty the requirements of the language. For the purpose of the project, we are referencing OMG SysML version 1.6 cited in the Primary Standards Section. I also recomend reading SysML Distilled: A Brief Guide to the Systems Modeling Language 1st Edition by Delligatti and following the OMG Systems Modeling Language
+(OMG SysML™) Tutorial from September 2009 by Sanford FriedenthalAlan MooreRick Steiner in the additional references setion.
 
 ### SysML Diagrams
 
