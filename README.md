@@ -32,6 +32,7 @@ The submission shall have the following sections:
 ### Point of Contacts
 
 If you need help setting up and getting started with your project. Please use the following information to get a hold of me.
+
 Michae L Kent
 kentmichae@gmail.com/michael.kent@gdit.com
 
