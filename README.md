@@ -1,6 +1,6 @@
 # AWS-SysML-Architecture-Model-Repository
 
-The AWS SysML Architecture Model Repository, is an open source project on GitHub for any Systems Engineeering professionals or students to collaborate and learn how to model cloud systems using SysML.
+The AWS SysML Architecture Model Repository, is an open source project on GitHub for any Systems Engineering professionals or students to collaborate and learn how to model cloud systems using SysML.
 
 ## Objectives
 
@@ -8,7 +8,7 @@ At the end of this independent project, the student should have an awareness of:
 
 - model-based systems engineering approach
 - SysML language and modeling abstract systems
-- How SysML is used as part of an MBSE proces.
+- How SysML is use as part of an MBSE process.
 
 ## Scope
 
@@ -20,7 +20,7 @@ Attached in this repository, is an AWS SysML Architecture Model Dictionary and G
 
 ## Expected Results and Using Github
 
-The independent project submission for any of the model elements chosen by the Systems Engineer, shall follow the requirements of OMG Systems Modeling Language version 1.6. The model views shall follow the following GitHub S3 Example under SysML Modeling Notes and Examples, with the intent to follow the OMG Standards when presenting the views of the system under consideration. When starting a new project recomend forking this repository and restructuring to follow the file structure and then deleting everything in the README section up to the SysML Modeling Notes and Examples to submit your project.
+The independent project submission for any of the model elements chosen by the Systems Engineer, shall follow the requirements of OMG Systems Modeling Language version 1.6. The model views shall follow the following GitHub S3 Example under SysML Modeling Notes and Examples, with the intent to follow the OMG Standards when presenting the views of the system under consideration. When starting a new project recommend forking this repository and restructuring to follow the file structure and then deleting everything in the README section up to the SysML Modeling Notes and Examples to submit your project.
 
 The submission shall have the following sections:
 
@@ -31,10 +31,10 @@ The submission shall have the following sections:
 
 ## Modeling and SysML Standards
 
-SysMl is developed to provide simple but powerful constructs for modeling a wide range of systems engineering problems. Is perfect in addressing system complexity by specifying requirements, structure, behavior, allocations, and constraints on system properties to support engineering analysis/system tradeoffs.
+SysMl is simple but powerful graphical constructs for modeling a wide range of systems engineering problems. Is perfect in addressing system complexity by specifying requirements, structure, behavior, allocations, and constraints on system properties to support engineering analysis/system tradeoffs.
 
-SysML reuses a subset of UML 2 and provides additional extensions to satisty the requirements of the language. For the purpose of the project, we are referencing OMG SysML version 1.6 cited in the Primary Standards Section. I also recomend reading SysML Distilled: A Brief Guide to the Systems Modeling Language 1st Edition by Delligatti and following the OMG Systems Modeling Language
-(OMG SysML™) Tutorial from September 2009 in the additional references setion.
+SysML reuses a subset of UML 2 and provides additional extensions to satisfy the requirements of the language. For the project, we are referencing OMG SysML version 1.6 cited in the Primary Standards Section. I also recommend reading SysML Distilled: A Brief Guide to the Systems Modeling Language 1st Edition by Delligatti and following the OMG Systems Modeling Language
+(OMG SysML™) Tutorial from September 2009 in the additional references section.
 
 ### SysML Diagrams
 
@@ -43,7 +43,7 @@ SysML reuses a subset of UML 2 and provides additional extensions to satisty the
 ### Primary Standards
 
 OMG SysML available specification (formal/2007-09-01)
-https://www.omg.org/spec/SysML/1.6/Beta1/PDF
+<https://www.omg.org/spec/SysML/1.6/Beta1/PDF>
 
 ### Additional References
 
@@ -56,6 +56,13 @@ The repository will be organize using the following packages ..............
 
 ## Software and Open Source Tools
 
+This open source project in GitHub will utilize open source tools to create the SysML views, and manage the content of your model through VSCode. Also I recommend you get a free Github account for this project so you can clone and utilize most of the formatting and section contents when creating views of your model.
+
+To install drawio-desktop use the following GitHub repository (<https://github.com/jgraph/drawio-desktop/releases>) where you can download and install the diagraming tool to create views of your model. As you can find in the Packages folder , there is already a folder for the S3 diagrams and views of the diagrams generated from the AWS S3 Service.drwawio file.
+
+VSCode is a code editor redefined and optimized for building modem web and cloud applications and to manage your project using markdown language; this will allow you to fork this project and to rapidly create your model views (<https://code.visualstudio.com/>).
+
+Also join Github (<https://github.com/>) to create and account so you can for the main project, and when publishing your project to GitHub for evaluation you can submit your model views. There is some good resources on how to clone
 ### SysML Modeling Notes and Examples
 
 #### AWS S3 Service [Model Description and Dictionary]
