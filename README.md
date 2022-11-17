@@ -85,6 +85,8 @@ Also join Github (<https://github.com/>) to create and account so you can for th
 
 #### S3 Service [Behavioral Diagrams]
 
+##### S3 Service Lifecycle Classes stm
+
 ![AWS S3 Service Lifecycle](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/Packages/S3/AWS%20S3%20Service-S3%20Lifecycle%20stm.svg)
 
 #### S3 Service [Requirements Diagrams]
