@@ -2,8 +2,6 @@
 
 The AWS SysML Architecture Model Repository, is an open source project on GitHub for any Systems Engineering professionals or students to collaborate and learn how to model cloud systems using SysML.
 
-
-
 ## Objectives
 
 At the end of this independent project, the student should have an awareness of:
