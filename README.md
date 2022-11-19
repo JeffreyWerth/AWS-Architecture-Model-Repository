@@ -85,7 +85,7 @@ Amazon Simple Storage Service (Amazon S3) is an object storage service that offe
 | S3 Glacier              | Storage class that delivers the lowest-cost for long-lived data that is rarely accessed. | Block         |
 | S3 Glacier Deep Archive | Storage class with lowest-cost and long-term retention and digital preservation of data. | Block         |
 | s3standard.namespace    | Is the bucket URL address where objects are stored within a region.                      | Block         |
-| networkEndpoint         | S3 access points to buckets with dedicated access policies.                              | <<full>> Port |
+| networkEndpoint         | S3 access points to buckets with dedicated access policies.                              | Full Port     |
 | AWSidentity&accessManag |                                                                                          |               |
 | accessControlLists      |                                                                                          |               |
 | S3objectOWnership       |                                                                                          |               |
