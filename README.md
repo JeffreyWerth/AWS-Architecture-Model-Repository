@@ -76,11 +76,24 @@ Also join Github (<https://github.com/>) to create and account so you can for th
 
 Amazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance. Customers of all sizes and industries can use Amazon S3 to store and protect any amount of data for a range of use cases, such as data lakes, websites, mobile applications, backup and restore, archive, enterprise applications, IoT devices, and big data analytics. Amazon S3 provides management features so that you can optimize, organize, and configure access to your data to meet your specific business, organizational, and compliance requirements.
 
-| Acronym   | Description | Source | Model Element | Notes | Appointment |
-| --------- | ----------- | ------ | ------------- | ----- | ----------- |
-| Header    | Title       |        |               |       |             |
-| Paragraph | Text        |        |               |       |             |
-|           |             |        |               |       |             |
+| Acronym | Appointment                     | Description | Source | Model Element | Notes |
+| ------- | ------------------------------- | ----------- | ------ | ------------- | ----- |
+|         | S3 Standard                     |             |        |               |       |
+|         | S3 Intelligent Tiering          |             |        |               |       |
+|         | S3 Standard Infrequence Access  |             |        |               |       |
+|         | S3 One Zone Intelligent Tiering |             |        |               |       |
+|         | S3 Glacier                      |             |        |               |       |
+|         | S3 Glacier Deep Archive         |             |        |               |       |
+|         | s3standard.namespace            |             |        |               |       |
+|         | networkEndpoint                 |             |        |               |       |
+|         | AWSidentity&accessManagement    |             |        |               |       |
+|         | accessControlLists              |             |        |               |       |
+|         | S3objectOWnership               |             |        |               |       |
+|         | S3objectEncryption              |             |        |               |       |
+|         | accessAnalyserforS3             |             |        |               |       |
+|         | S3objectLambda                  |             |        |               |       |
+|         | eventNotifications              |             |        |               |       |
+|         |                                 |             |        |               |       |
 
 #### AWS S3 Service [Structure Diagrams]
 
