@@ -11,7 +11,7 @@ At the end of this independent project, the student should have an awareness of:
 - How SysML is use as part of an MBSE process.
 ## Scope
 
-AWS as a cloud platform has more than one hundred cloud services (<https://aws.amazon.com/marketplace/solutions/awsmp-all-use-cases>), which enable organizations to secure, store and compute their data on the cloud. This benefits the organization in a way that there is no need for physical hardware to manage the IT infrastructure of the organization.
+AWS as a cloud platform (<https://aws.amazon.com/marketplace/solutions/awsmp-all-use-cases>) has more than one hundred cloud services, which enable organizations to secure, store and compute their data on the cloud. This benefits the organization in a way that there is no need for physical hardware to manage the IT infrastructure of the organization.
 
 The intent of this open source project on GitHub, is to model these services using SysML to better understand how these services impact the enterprise, and help organizations transferring their data from physical applications to cloud-based infrastructure, applications, and legacy systems; with the goal to understand any security impacts on how the data is manage and transfer using SysML to model the interfaces that makes these IT systems live in the Cloud.
 
@@ -32,8 +32,9 @@ The submission shall have the following sections:
 
 If you need help setting up and getting started with your project. Please use the following information to get a hold of me.
 
-Michae L Kent
-kentmichae@gmail.com/michael.kent@gdit.com
+Michael L Kent
+kentmichae@gmail.com
+michael.kent@gdit.com
 
 ## Modeling and SysML Standards
 
@@ -72,6 +73,13 @@ Also join Github (<https://github.com/>) to create and account so you can for th
 ### SysML Modeling Notes and Examples
 
 #### AWS S3 Service [Model Description and Dictionary]
+
+Amazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance. Customers of all sizes and industries can use Amazon S3 to store and protect any amount of data for a range of use cases, such as data lakes, websites, mobile applications, backup and restore, archive, enterprise applications, IoT devices, and big data analytics. Amazon S3 provides management features so that you can optimize, organize, and configure access to your data to meet your specific business, organizational, and compliance requirements.
+
+| Acronym   | Appointment | Description | Source | Model Element | Notes |
+| --------- | ----------- | ----------- | ------ | ------------- | ----- |
+| Header    | Title       |             |        |               |       |
+| Paragraph | Text        |             |        |               |       |
 
 #### AWS S3 Service [Structure Diagrams]
 
