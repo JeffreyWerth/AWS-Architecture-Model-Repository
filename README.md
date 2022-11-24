@@ -35,7 +35,6 @@ If you need help setting up and getting started with your project. Please use th
 Michael L Kent
 kentmichae@gmail.com
 
-
 ## Modeling and SysML Standards
 
 SysMl is simple but powerful graphical constructs for modeling a wide range of systems engineering problems. Is perfect in addressing system complexity by specifying requirements, structure, behavior, allocations, and constraints on system properties to support engineering analysis/system tradeoffs.
