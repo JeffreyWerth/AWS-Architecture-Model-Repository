@@ -64,11 +64,11 @@ The repository will be organize using the following packages ..............
 
 This open source project in GitHub will utilize open source tools to create the SysML views, and manage the content of your model through VSCode. Also I recommend you get a free Github account for this project so you can clone and utilize most of the formatting and section contents when creating views of your model.
 
-To install drawio-desktop use the following GitHub repository (<https://github.com/jgraph/drawio-desktop/releases>) where you can download and install the diagraming tool to create views of your model. As you can find in the Packages folder , there is already a folder for the S3 diagrams and views of the diagrams generated from the AWS S3 Service.drwawio file.
+To install drawio-desktop use the following GitHub repository (<https://github.com/jgraph/drawio-desktop/releases>) where you can download and install the diagraming tool to create views of your model. As you can find in the Packages folder, there is already a folder for the S3 model elements and views of the different SysML diagrams generated from the AWS S3 Service.drwawio file.
 
-VSCode is a code editor redefined and optimized for building modem web and cloud applications and to manage your project using markdown language; this will allow you to fork this project and to rapidly create your model views (<https://code.visualstudio.com/>).
+VSCode is a code editor redefined and optimized for building modern web and cloud applications and to manage your project using markdown language; this will allow you to fork or clone this project and to rapidly create your model views (<https://code.visualstudio.com/>).
 
-Also join Github (<https://github.com/>) to create and account so you can for the main project, and when publishing your project to GitHub for evaluation you can submit your model views. There is some good resources on how to clone
+Also getting a Github (<https://github.com/>) account to manage your content online and share your project, when publishing to GitHub for evaluation will allow team collaboration and sharing your model views. There is some good resources on how to clone.........
 ### SysML Modeling Notes and Examples
 
 #### AWS S3 Service [Model Description and Dictionary]
