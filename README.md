@@ -39,7 +39,7 @@ kentmichae@gmail.com
 
 SysMl is simple but powerful graphical constructs for modeling a wide range of systems engineering problems. Is perfect in addressing system complexity by specifying requirements, structure, behavior, allocations, and constraints on system properties to support engineering analysis/system tradeoffs.
 
-SysML reuses a subset of UML 2 and provides additional extensions to satisfy the requirements of the language. For the project, we are referencing OMG SysML version 1.6 cited in the Primary Standards Section. I also recommend reading SysML Distilled: A Brief Guide to the Systems Modeling Language 1st Edition by Delligatti and following the OMG Systems Modeling Language
+SysML reuses a subset of UML 2.0 (<https://www.uml.org/what-is-uml.htm>) that provides additional extensions to satisfy the requirements of the language. For the project, we are referencing OMG SysML version 1.6 cited in the Primary Standards Section. I also recommend reading SysML Distilled: A Brief Guide to the Systems Modeling Language 1st Edition by Delligatti and following the OMG Systems Modeling Language
 (OMG SysML™) Tutorial from September 2009 in the additional references section.
 
 ### SysML Diagrams
