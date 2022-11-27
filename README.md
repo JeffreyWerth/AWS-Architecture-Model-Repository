@@ -78,3 +78,5 @@ VSCode is a code editor redefined and optimized for building modern web and clou
 Also getting a GitHub (<https://github.com/>) account to manage your content online and share your project when publishing to GitHub for evaluation will allow team collaboration and sharing your model views. There are some useful resources on how to clone.........
 
 ### SysML Modeling Notes and Examples
+
+<https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/AWS%20S3%20Service.md>
