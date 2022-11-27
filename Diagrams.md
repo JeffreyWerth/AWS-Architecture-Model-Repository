@@ -1,11 +1,12 @@
 ## Structural Diagrams 
-The elements in a structure diagram represent the meaningful concepts of a system, and may include abstract, real world and implementation concepts; AFSOC EA Team will only be responsible to use the following structural diagrams: 
+The elements in a structure diagram represent the meaningful concepts of a system, and may include abstract, real world and implementation concepts. It shows the hierarchy of structure of the different components or modules of the system and shows how they connect and interact with each other. There are four type of structural diagrams:
 
 - Block Definition Diagrams 
 - Internal Block Diagrams 
+- Parametric Diagrams
 - Package Diagrams  
 
-## Block Definition Diagrams (bdd) 
+### Block Definition Diagrams (bdd) 
 A Block Definition Diagram is a static structural diagram that shows system components, their contents (Properties, Behaviors, Constraints), Interfaces, and relationships. 
 
 Blocks can be recursively decomposed ("nested") into Parts by alternating between Block Definition Diagram (BDD) definitions and Internal Block Diagram (IBD) usages (See Usage Notes TBD.) 
