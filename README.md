@@ -45,7 +45,13 @@ SysML reuses a subset of UML 2.0 (<https://www.uml.org/what-is-uml.htm>) that pr
 
 ### SysML Diagrams
 
+The Systems Modeling Language is compose of nine (9) diagram types and Allocation tables for mapping language elements across diagram types as shown in the Figue 1 SysML Diagram Types.
+
 ![SysML Diagrams](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/Views/SysML_Diagrams.svg)
+
+To learn more about the different types, follow the link bellow to read more about the diagrams and the purpose for using the diagrams when defining/describing system structure and behavior.
+
+![SysML Diagrams DEfinitions](<https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/Diagrams.md>)
 
 ### Primary Standards
 
