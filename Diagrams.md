@@ -40,7 +40,12 @@ A SysML Requirement Diagram is a static structural diagram that shows the relati
 For managing AFSOC EA FoS, STIS-0301 will not require the use of Requirement Diagrams, all metadata will be managed through the Requirements Traceability Matrix (RTM). 
 
 ## Behavioral Diagrams 
-Behavior diagrams show the dynamic behavior of the objects in a system, which can be described as a series of changes to the system over time. For the mapping of Behavioral Diagrams to DoDAF 2.02 Products reference Figure 1; for DoDAF 2.02 View content requirements, review Appendix B (DoDAF Package Views). 
+Behavior diagrams show the dynamic behavior of the objects in a system, which can be described as a series of changes to the system over time. For the mapping of Behavioral Diagrams to DoDAF 2.02 Products reference Figure 1; for DoDAF 2.02 View content requirements, review Appendix B (DoDAF Package Views). There are four type of structural diagrams:
+
+- Activity Diagrams
+- Sequence Diagrams
+- State Machine Diagrams
+- Use Case Diagrams  
 
 ### Activity Diagram (act) 
 An Activity diagram shows system dynamic behavior using a combined Control Flow and Object (data) Flow model. 
