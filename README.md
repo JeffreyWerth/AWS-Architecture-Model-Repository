@@ -61,7 +61,7 @@ OMG SysML available specification (formal/2007-09-01)
 ### Additional References
 
 SysML Distilled: A Brief Guide to the Systems Modeling Language 1st Edition
-OMG Systems Modeling Language (OMG SysML™) Tutorial from September 2009 by Sanford Friedenthal/Alan MooreRick/Steiner
+OMG Systems Modeling Language (OMG SysML™) Tutorial from September 2009 by Sanford Friedenthal/Alan MooreRick/Steiner (<https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/Additional%20References/INCOSE-OMGSysML-Tutorial-Final-090901.pdf>)
 
 ## AWS Model Repository Packages
 
@@ -78,5 +78,6 @@ VSCode is a code editor redefined and optimized for building modern web and clou
 Also getting a GitHub (<https://github.com/>) account to manage your content online and share your project when publishing to GitHub for evaluation will allow team collaboration and sharing your model views. There are some useful resources on how to clone.........
 
 ### SysML Modeling Notes and Examples
+
 
 <https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/AWS%20S3%20Service.md>
