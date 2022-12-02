@@ -45,7 +45,7 @@ SysML reuses a subset of UML 2.0 (<https://www.uml.org/what-is-uml.htm>) that pr
 
 ### SysML Diagrams
 
-The Systems Modeling Language is compose of nine (9) diagram types and Allocation tables for mapping language elements across diagram types as shown in the Figue 1 SysML Diagram Types.
+The Systems Modeling Language is compose of nine (9) diagram types and Allocation tables for mapping language elements across diagram types as shown in the Figure 1 SysML Diagram Types.
 
 ![SysML Diagrams](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/Views/SysML_Diagrams.svg)
 
@@ -72,13 +72,12 @@ The repository will be organize using the following packages ..............
 
 This open-source project in GitHub will utilize open-source tools to create the SysML views and manage the content of your model through VSCode. Also, I recommend you get a free GitHub account for this project so you can clone and utilize most of the formatting and section contents when creating views of your model.
 
-To install drawio-desktop use the following GitHub repository (<https://github.com/jgraph/drawio-desktop/releases>) where you can download and install the diagraming tool to create views of your model. As you can find in the Packages folder, there is already a folder for the S3 model elements and views of the different SysML diagrams generated from the AWS S3 Service.drwawio file.
+To install drawio-desktop use the following GitHub repository (<https://github.com/jgraph/drawio-desktop/releases>) where you can download and install the diagraming tool to create views of your model. As you can find in the Packages folder, there is already a folder for the S3 model elements and views of the different SysML diagrams generated from the AWS S3 Service.drawio file.
 
 VSCode is a code editor redefined and optimized for building modern web and cloud applications and to manage your project using markdown language; this will allow you to fork or clone this project and to rapidly create your model views (<https://code.visualstudio.com/>).
 
 Also getting a GitHub (<https://github.com/>) account to manage your content online and share your project when publishing to GitHub for evaluation will allow team collaboration and sharing your model views. There are some useful resources on how to clone.........
 
 ### SysML Modeling Notes and Examples
-
 
 <https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/AWS%20S3%20Service.md>
