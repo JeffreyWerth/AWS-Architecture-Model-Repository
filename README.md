@@ -69,7 +69,7 @@ OMG Systems Modeling Language (OMG SysML™) Tutorial from September 2009 by San
 
 The repository will be organize using the following packages ..............
 
-![AWS Packages](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/Views/SysML_Diagrams.svg)
+![AWS Packages](<https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/AWS%20Packages/AWS%20Packages.svg>)
 
 ## Software and Open-Source Tools
 
