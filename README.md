@@ -69,6 +69,8 @@ OMG Systems Modeling Language (OMG SysML™) Tutorial from September 2009 by San
 
 The repository will be organize using the following packages ..............
 
+![AWS Packages](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/Views/SysML_Diagrams.svg)
+
 ## Software and Open-Source Tools
 
 This open-source project in GitHub will utilize open-source tools to create the SysML views and manage the content of your model through VSCode. Also, I recommend you get a free GitHub account for this project so you can clone and utilize most of the formatting and section contents when creating views of your model.
