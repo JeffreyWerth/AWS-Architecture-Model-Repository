@@ -67,7 +67,7 @@ OMG Systems Modeling Language (OMG SysML™) Tutorial from September 2009 by San
 
 ## AWS Model Repository Packages
 
-The repository will be organize using the following packages in Figure 2. These packages shall be use as a library and template when creating/documenting new AWS Models artifacts within AWS Family of Services. For definitions of the contents of the packages, see the following page ().
+The repository will be organize using the following packages in Figure 2. These packages shall be use as a library and template when creating/documenting new AWS Models artifacts within AWS Family of Services. For definitions of the contents of the packages, see the following page (<https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/AWS%20Packages/Repository%20Packages.md>).
 
 ![AWS Packages](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/AWS%20Packages/AWS%20Packages.svg)
 
