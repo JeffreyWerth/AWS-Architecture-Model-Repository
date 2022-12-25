@@ -62,6 +62,7 @@ OMG SysML available specification (formal/2007-09-01)
 
 SysML Distilled: A Brief Guide to the Systems Modeling Language 1st Edition
 (<https://www.amazon.com/SysML-Distilled-Systems-Modeling-Language/dp/0321927869>)
+
 OMG Systems Modeling Language (OMG SysML™) Tutorial from September 2009 by Sanford Friedenthal/Alan MooreRick/Steiner (<https://www.omgsysml.org/INCOSE-OMGSysML-Tutorial-Final-090901.pdf>)
 
 ## AWS Model Repository Packages
