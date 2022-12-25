@@ -26,16 +26,16 @@ Amazon Simple Storage Service (Amazon S3) is an object storage service that offe
 
 ##### AWS S3 Service Bucket bdd
 
-![AWS S3 Service Bucket](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/Packages/S3/AWS%20S3%20Service-S3%20Bucket%20bdd.svg)
+![AWS S3 Service Bucket](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/AWS%20Packages/Storage/S3/AWS%20S3%20Service-S3%20Bucket%20bdd.svg)
 
 ##### S3 Service Storage Classes bdd
 
-![AWS S3 Service Storage Classes](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/Packages/S3/AWS%20S3%20Service-S3%20Storage%20Classes%20bdd.svg)
+![AWS S3 Service Storage Classes](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/AWS%20Packages/Storage/S3/AWS%20S3%20Service-S3%20Storage%20Classes%20bdd.svg)
 
 #### S3 Service [Behavioral Diagrams]
 
 ##### S3 Service Lifecycle Classes stm
 
-![AWS S3 Service Lifecycle](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/Packages/S3/AWS%20S3%20Service-S3%20Lifecycle%20stm.svg)
+![AWS S3 Service Lifecycle](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/AWS%20Packages/Storage/S3/AWS%20S3%20Service-S3%20Lifecycle%20stm.svg)
 
 #### S3 Service [Requirements Diagrams]
