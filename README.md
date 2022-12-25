@@ -83,4 +83,4 @@ Also getting a GitHub (<https://github.com/>) account to manage your content onl
 
 ### SysML Modeling Notes and Examples
 
-<https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/AWS%20S3%20Service.md>
+<https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/AWS%20Packages/Storage/S3/AWS%20S3%20Service.md>
