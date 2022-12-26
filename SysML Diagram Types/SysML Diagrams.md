@@ -38,7 +38,7 @@ The purpose of Package diagram is to support the organization and management of 
 
 ## Requirement Diagram (req)
 
-A SysML Requirement Diagram is a static structural diagram that shows the relationships among Requirement (<<requirements>>) them, and Test Cases that Verify (<<verify>> Dependency) them. The purpose of Requirement diagrams is to specify both Functional and Non-Functional Requirements within the model so that they can be traced to other model elements that Satisfy them and Test Cases that Verify them.
+A SysML Requirement Diagram is a static structural diagram that shows the relationships among Requirement (<< requirements >>) them, and Test Cases that Verify (<< verify >> Dependency) them. The purpose of Requirement diagrams is to specify both Functional and Non-Functional Requirements within the model so that they can be traced to other model elements that Satisfy them and Test Cases that Verify them.
 
 ## Behavioral Diagrams
 
