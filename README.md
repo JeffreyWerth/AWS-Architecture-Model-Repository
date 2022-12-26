@@ -72,7 +72,7 @@ The repository will be organize using the following packages in Figure 2. These 
 ![AWS Packages](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/AWS%20Packages/AWS%20Packages.svg)
 
 ## Software and Open-Source Tools
- 
+
 This open-source project in GitHub will utilize open-source tools to create the SysML views and manage the content of your model through VSCode. Also, I recommend you get a free GitHub account for this project so you can clone and utilize most of the formatting and section contents when creating views of your model.
 
 To install drawio-desktop use the following GitHub repository (<https://github.com/jgraph/drawio-desktop/releases>) where you can download and install the diagraming tool to create views of your model. As you can find in the Packages folder, there is already a folder for the S3 model elements and views of the different SysML diagrams generated from the AWS S3 Service.drawio file.
