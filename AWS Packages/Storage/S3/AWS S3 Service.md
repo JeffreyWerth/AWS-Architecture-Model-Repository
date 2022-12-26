@@ -1,5 +1,5 @@
 
-#### AWS S3 Service [Model Description and Dictionary]
+# AWS S3 Service [Model Description and Dictionary]
 
 Amazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance. Customers of all sizes and industries can use Amazon S3 to store and protect any amount of data for a range of use cases, such as data lakes, websites, mobile applications, backup and restore, archive, enterprise applications, IoT devices, and big data analytics. Amazon S3 provides management features so that you can optimize, organize, and configure access to your data to meet your specific business, organizational, and compliance requirements.
 
@@ -22,20 +22,20 @@ Amazon Simple Storage Service (Amazon S3) is an object storage service that offe
 | eventNotifications      |                                                                                                           |               |
 |                         |                                                                                                           |               |
 
-#### AWS S3 Service [Structure Diagrams]
+## AWS S3 Service [Structure Diagrams]
 
-##### AWS S3 Service Bucket bdd
+### AWS S3 Service Bucket bdd
 
 ![AWS S3 Service Bucket](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/AWS%20Packages/Storage/S3/AWS%20S3%20Service-S3%20Bucket%20bdd.svg)
 
-##### S3 Service Storage Classes bdd
+### S3 Service Storage Classes bdd
 
 ![AWS S3 Service Storage Classes](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/AWS%20Packages/Storage/S3/AWS%20S3%20Service-S3%20Storage%20Classes%20bdd.svg)
 
-#### S3 Service [Behavioral Diagrams]
+## S3 Service [Behavioral Diagrams]
 
-##### S3 Service Lifecycle Classes stm
+### S3 Service Lifecycle Classes stm
 
 ![AWS S3 Service Lifecycle](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/AWS%20Packages/Storage/S3/AWS%20S3%20Service-S3%20Lifecycle%20stm.svg)
 
-#### S3 Service [Requirements Diagrams]
+### S3 Service [Requirements Diagrams]

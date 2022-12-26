@@ -2,14 +2,13 @@
 
 ## Structural Diagrams
 
-The elements in a structure diagram represent the meaningful concepts of a system, and may include abstract, real world and implementation concepts; ENTERPRISE EA Team will only be responsible to use the following structural diagrams:
+The elements in a structure diagram represent the meaningful concepts of a system, and may include abstract, real world and implementation concepts; the following structural diagram are part of the SysML standard:
 • Block Definition Diagrams
 • Internal Block Diagrams
+    - Parametric Diagrams
 • Package Diagrams
 
-For the mapping of Structural Diagrams to DoDAF 2.02 Products reference Figure 1; for DoDAF 2.02 View content requirements, review Appendix B (DoDAF Package Views).
-
-## Block Definition Diagrams (bdd)
+## Block Definition Diagram (bdd)
 
 A Block Definition Diagram is a static structural diagram that shows system components, their contents (Properties, Behaviors, Constraints), Interfaces, and relationships.
 • Blocks can be recursively decomposed ("nested") into Parts by alternating between Block Definition Diagram (BDD) definitions and Internal Block Diagram (IBD) usages (See Usage Notes TBD.)
@@ -17,7 +16,7 @@ A Block Definition Diagram is a static structural diagram that shows system comp
 
 The purpose of Block Definition Diagrams is to specify system static structures that be used for Control Objects, Data Objects, and Interface Objects.
 
-## Internal Block Diagrams (ibd)
+## Internal Block Diagram (ibd)
 
 An Internal Block Diagram is a static structural diagram owned by a particular Block that shows its encapsulated structural contents: Parts, Properties, Connectors, Ports, and Interfaces. Stated otherwise, an IBD is a "white-box" perspective of an encapsulated ("black-box") Block.
 • Blocks can be recursively decomposed ("nested") into Parts by alternating between Block Definition Diagram (BDD) definitions and Internal Block Diagram (IBD) usages (See Usage Notes TBD.)
@@ -26,24 +25,27 @@ An Internal Block Diagram is a static structural diagram owned by a particular B
 
 The purpose of Internal Block Diagrams (IBDs) is to show the encapsulated structural contents (Parts, Properties, Connectors, Ports, Interfaces) of Blocks so that they can be recursively decomposed and "wired" using Interface Based Design techniques
 
-### Parametric Diagrams (par)
+### Parametric Diagram (par)
 
 A Parametric diagram is a specialization of an Internal Block Diagram (IBD) that enforces mathematical rules (Constraints) defined by Constant Blocks across the internal Part Value Properties bound in the Constraint Block Parameters.
 The purpose of Parametric diagrams (PARs) is to enforce mathematical rules across Block Value Properties.
 
-## Package Diagrams (pkg)
+## Package Diagram (pkg)
 
 A Package diagram is a static structural diagram that shows the relationships among packages and their contents. Package can be stereotyped (customized) for organizing model elements into models, views, model libraries, and frameworks.
 The purpose of Package diagram is to support the organization and management of large, complex System Architecture Models (SAMs).
 
-## Requirement Diagrams (req)
+## Requirement Diagram (req)
 
 A SysML Requirement Diagram is a static structural diagram that shows the relationships among Requirement (<<requirements>>) them, and Test Cases that Verify (<<verify>> Dependency) them. The purpose of Requirement diagrams is to specify both Functional and Non-Functional Requirements within the model so that they can be traced to other model elements that Satisfy them and Test Cases that Verify them.
 
 ## Behavioral Diagrams
 
-Behavior diagrams show the dynamic behavior of the objects in a system, which can be described as a series of changes to the system over time. For the mapping of Behavioral Diagrams to DoDAF 2.02 Products reference Figure 1; for DoDAF 2.02 View content requirements, review Appendix B (DoDAF Package Views).
-
+Behavior diagrams show the dynamic behavior of the objects in a system, which can be described as a series of changes to the system over time; the following behavioral diagrams are part of the SysML standard:
+• Activity Diagram
+• Sequence Diagram
+• State Machine Diagram
+• Use Case Diagram
 ## Activity Diagram (act)
 
 An Activity diagram shows system dynamic behavior using a combined Control Flow and Object (data) Flow model.
@@ -61,12 +63,12 @@ The purpose of Activity diagrams is to specify dynamic system behaviors that Sat
 
 The purpose of Sequence diagrams is to specify dynamic system behaviors as message-passing collaborations among prototypical Blocks (Parts).
 
-## State Machine Diagrams (stm)
+## State Machine Diagram (stm)
 
  A State Machine diagram is a dynamic behavioral diagram that shows the sequences of States that an object or an interaction go through during its lifetime in response to Events (a.k.a. "Triggers"), which may result in side-effects (Actions.
 The purpose of State Machine diagrams is to specify dynamic system behaviors for time-critical, mission-critical, safety-critical, or financially-critical objects#.
 
-## Use Case Diagrams (uc)
+## Use Case Diagram (uc)
 
  A Use Case diagram shows communications among system transactions (Use Cases) and external users (Actors) in the context of a system boundary (Subject; notation: rectangle). Actors may represent wetware (persons, organizations, facilities), software systems, or hardware systems. Defining relationships between the system Subject and the system Actors is an effective informal way to define system scope.
 The purpose of Use Case diagrams is to provide a high-level view of the subject system and convey the top-level system requirements in non-technical terms for all stakeholders, including customers and project managers as well as architects and engineers.
