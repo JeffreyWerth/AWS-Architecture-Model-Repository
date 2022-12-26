@@ -4,10 +4,10 @@
 
 The elements in a structure diagram represent the meaningful concepts of a system, and may include abstract, real world and implementation concepts; the following structural diagram are part of the SysML standard:
 
-• Block Definition Diagrams 
-• Internal Block Diagrams 
-    - Parametric Diagrams 
-• Package Diagrams 
+- Block Definition Diagrams 
+- Internal Block Diagrams 
+    - Parametric Diagrams mark
+- Package Diagrams 
 
 ## Block Definition Diagram (bdd)
 
@@ -44,10 +44,11 @@ A SysML Requirement Diagram is a static structural diagram that shows the relati
 
 Behavior diagrams show the dynamic behavior of the objects in a system, which can be described as a series of changes to the system over time; the following behavioral diagrams are part of the SysML standard:
 
-• Activity Diagram 
-• Sequence Diagram 
-• State Machine Diagram 
-• Use Case Diagram 
+- Activity Diagram 
+- Sequence Diagram 
+- State Machine Diagram 
+- Use Case Diagram 
+
 ## Activity Diagram (act)
 
 An Activity diagram shows system dynamic behavior using a combined Control Flow and Object (data) Flow model.
