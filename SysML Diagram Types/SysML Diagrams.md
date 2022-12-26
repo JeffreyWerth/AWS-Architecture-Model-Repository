@@ -43,6 +43,7 @@ A SysML Requirement Diagram is a static structural diagram that shows the relati
 ## Behavioral Diagrams
 
 Behavior diagrams show the dynamic behavior of the objects in a system, which can be described as a series of changes to the system over time; the following behavioral diagrams are part of the SysML standard:
+
 • Activity Diagram
 • Sequence Diagram
 • State Machine Diagram
