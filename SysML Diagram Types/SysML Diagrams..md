@@ -1,4 +1,4 @@
-# SysML Digram Types
+# SysML Diagram Types
 
 ## Structural Diagrams
 
@@ -14,23 +14,22 @@ For the mapping of Structural Diagrams to DoDAF 2.02 Products reference Figure 1
 A Block Definition Diagram is a static structural diagram that shows system components, their contents (Properties, Behaviors, Constraints), Interfaces, and relationships.
 • Blocks can be recursively decomposed ("nested") into Parts by alternating between Block Definition Diagram (BDD) definitions and Internal Block Diagram (IBD) usages (See Usage Notes TBD.)
 • Behaviors can either be encapsulated by Blocks (e.g., Operations, Signals, and State Machines) or Allocated (via «allocate» Dependency) to Blocks (e.g., Activities/Actions) directly or indirectly (via Interfaces).
-• Blocks can be mathematically constrained via Constraint Blocks to produce mathematically simulatable Parametric diagrams.
 
 The purpose of Block Definition Diagrams is to specify system static structures that be used for Control Objects, Data Objects, and Interface Objects.
 
 ## Internal Block Diagrams (ibd)
 
-An Internal Block Diagram is a static structural diagram owned by a particular Block that shows its encapsulated structural contents: Parts, Properties, Connectors, Ports, and Interfaces. Stated otherwise, an IBD is a "white-box" perspective of an encapsuated ("black-box") Block.
+An Internal Block Diagram is a static structural diagram owned by a particular Block that shows its encapsulated structural contents: Parts, Properties, Connectors, Ports, and Interfaces. Stated otherwise, an IBD is a "white-box" perspective of an encapsulated ("black-box") Block.
 • Blocks can be recursively decomposed ("nested") into Parts by alternating between Block Definition Diagram (BDD) definitions and Internal Block Diagram (IBD) usages (See Usage Notes TBD.)
 • Behaviors can either be encapsulated by Blocks (e.g., Operations, Signals, and State Machines) or Allocated (via «allocate» Dependency) to Blocks (e.g., Activities/Actions) directly or indirectly (via Interfaces).
-• Blocks can be mathematically constrained via Constraint Blocks to produce mathematically simulatable Parametric diagrams.
+• Blocks can be mathematically constrained via Constraint Blocks to produce mathematically representations of Parametric diagrams.
 
 The purpose of Internal Block Diagrams (IBDs) is to show the encapsulated structural contents (Parts, Properties, Connectors, Ports, Interfaces) of Blocks so that they can be recursively decomposed and "wired" using Interface Based Design techniques
 
 ### Parametric Diagrams (par)
 
 A Parametric diagram is a specialization of an Internal Block Diagram (IBD) that enforces mathematical rules (Constraints) defined by Constant Blocks across the internal Part Value Properties bound in the Constraint Block Parameters.
-The purpose of Parametric diagrams (PARs) is to enforce mathematical rules across Block Value Properties. For managing ENTERPRISE EA FoS, STIS-0301 will not require the use of Parametric Diagram, all parametric metadata will be managed through the SV-7 Systems Measures Matrix (SV-7) Table.
+The purpose of Parametric diagrams (PARs) is to enforce mathematical rules across Block Value Properties.
 
 ## Package Diagrams (pkg)
 
@@ -40,7 +39,6 @@ The purpose of Package diagram is to support the organization and management of 
 ## Requirement Diagrams (req)
 
 A SysML Requirement Diagram is a static structural diagram that shows the relationships among Requirement (<<requirements>>) them, and Test Cases that Verify (<<verify>> Dependency) them. The purpose of Requirement diagrams is to specify both Functional and Non-Functional Requirements within the model so that they can be traced to other model elements that Satisfy them and Test Cases that Verify them.
-For managing ENTERPRISE EA FoS, STIS-0301 will not require the use of Requirement Diagrams, all metadata will be managed through the Requirements Traceability Matrix (RTM).
 
 ## Behavioral Diagrams
 
