@@ -4,10 +4,10 @@
 
 The elements in a structure diagram represent the meaningful concepts of a system, and may include abstract, real world and implementation concepts; the following structural diagram are part of the SysML standard:
 
-    • Block Definition Diagrams
-    • Internal Block Diagrams
-        - Parametric Diagrams
-    • Package Diagrams
+• Block Definition Diagrams
+• Internal Block Diagrams
+    - Parametric Diagrams
+• Package Diagrams
 
 ## Block Definition Diagram (bdd)
 
