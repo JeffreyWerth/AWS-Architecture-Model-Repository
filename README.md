@@ -49,7 +49,7 @@ The Systems Modeling Language is compose of nine (9) diagram types and Allocatio
 
 ![SysML Diagrams](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/Views/SysML_Diagrams.svg)
 
-To learn more about the different types, follow the link (<https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Diagram%20Types/SysML%20Diagrams..md>) to read more about the diagrams and the purpose for using the diagrams when defining/describing system structure and behavior.
+To learn more about the different types, follow the link (<https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Diagram%20Types/SysML%20Diagrams.md>) to read more about the diagrams and the purpose for using the diagrams when defining/describing system structure and behavior.
 
 <https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/Diagrams.md>
 
