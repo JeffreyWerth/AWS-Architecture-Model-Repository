@@ -25,10 +25,24 @@ SysML supports the specification, analysis, design, verification, and validation
 
 ### Header Format - diagramKind
 
+SysML-defined acronym identifying the kind of diagram shown:
+- activity diagram (act)
+- block definition diagram (bdd)
+- internal block diagram (ibd)
+- package diagram (pkg)
+- parametric diagram (par)
+- requirement diagram (req)
+- sequence diagram (sd)
+- state machine diagram (stm)
+- use case diagram (uc)
+
+### Header Format - [modelElementType]
+
 Remember that diagrams are model elements and they have a name and a type.
 modelElementType is determined by the element that the diagram represents.
 
 The most common element types per diagram kind are as follows:
+
 - act: activity
 - bdd: block, constraintBlock, package, model, modelLibrary, view
 - ibd: block
@@ -38,10 +52,6 @@ The most common element types per diagram kind are as follows:
 - sd: interaction
 - stm: stateMachine
 - uc: package, model, modelLibrary, view
-
-### Header Format - [modelElementType]
-
-
 ### Header Format - modelElementName
 
 
