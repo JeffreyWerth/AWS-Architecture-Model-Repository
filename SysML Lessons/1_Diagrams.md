@@ -25,6 +25,19 @@ SysML supports the specification, analysis, design, verification, and validation
 
 ### Header Format - diagramKind
 
+Remember that diagrams are model elements and they have a name and a type.
+modelElementType is determined by the element that the diagram represents.
+
+The most common element types per diagram kind are as follows:
+- act: activity
+- bdd: block, constraintBlock, package, model, modelLibrary, view
+- ibd: block
+- pkg: package, model, modelLibrary, view, profile
+- par: block, constraintBlock
+- req: package, model, modelLibrary, view, requirement
+- sd: interaction
+- stm: stateMachine
+- uc: package, model, modelLibrary, view
 
 ### Header Format - [modelElementType]
 
