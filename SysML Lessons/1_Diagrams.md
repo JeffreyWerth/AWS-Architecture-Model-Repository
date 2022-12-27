@@ -1,10 +1,8 @@
 # Systems Modeling Language (SysML)
 
-The Object Management Group Systems Modeling Language (OMG SysML), simply stated as SysML, is a general-purpose modeling language for systems engineering applications
+The Object Management Group Systems Modeling Language (OMG SysML), simply stated as SysML, is a general-purpose modeling language for systems engineering applications.
 
-SysML supports the specification, analysis, design, verification, and validation of a broad range of systems
-
-SysML consists of Abstract Syntax and Concrete Syntax:
+SysML supports the specification, analysis, design, verification, and validation of a broad range of systems. SysML consists of Abstract Syntax and Concrete Syntax:
 - Abstract Syntax is the set of rules that identify what you can and cannot do
 - Concrete Syntax is the set of notations that you are allowed to use on diagrams
 
@@ -19,3 +17,5 @@ SysML consists of Abstract Syntax and Concrete Syntax:
 - A set of diagrams does not need to completely cover the model
 - Deleting an item from a diagram does not remove it from the model
 - Deleting a diagram does not affect the elements, or the relationships between elements, that were displayed on that diagram
+
+## Diagrams Format
