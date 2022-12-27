@@ -18,7 +18,7 @@ SysML supports the specification, analysis, design, verification, and validation
 - Deleting an item from a diagram does not remove it from the model
 - Deleting a diagram does not affect the elements, or the relationships between elements, that were displayed on that diagram
 
-## Diagrams Format
+## Diagram Format
 
 ![Diagram Format](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/SVGs/Diagrams%20Format.svg)
 
