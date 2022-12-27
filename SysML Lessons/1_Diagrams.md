@@ -54,5 +54,8 @@ The most common element types per diagram kind are as follows:
 - uc: package, model, modelLibrary, view
 ### Header Format - modelElementName
 
+Remember that diagrams are model elements and they have a name and a type. modelElementName is the name of the model element that the diagram represents
 
 ### Header Format - [diagramName]
+
+This can be anything you would like, but should be a brief name to provide the reader some knowledge on what they should expect to see in that diagram.
