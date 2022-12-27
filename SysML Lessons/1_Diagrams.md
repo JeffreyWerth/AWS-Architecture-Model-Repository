@@ -20,6 +20,7 @@ SysML supports the specification, analysis, design, verification, and validation
 
 ## Diagram Format
 
+The header always contains four pieces of information as shown in Figure 1 Diagram Format.
 ![Diagram Format](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/SVGs/Diagrams%20Format.svg)
 
 
@@ -42,7 +43,6 @@ Remember that diagrams are model elements and they have a name and a type.
 modelElementType is determined by the element that the diagram represents.
 
 The most common element types per diagram kind are as follows:
-
 - act: activity
 - bdd: block, constraintBlock, package, model, modelLibrary, view
 - ibd: block
