@@ -21,3 +21,15 @@ SysML supports the specification, analysis, design, verification, and validation
 ## Diagrams Format
 
 ![Diagram Format](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/SVGs/Diagrams%20Format.svg)
+
+
+### Header Format - diagramKind
+
+
+### Header Format - [modelElementType]
+
+
+### Header Format - modelElementName
+
+
+### Header Format - [diagramName]
