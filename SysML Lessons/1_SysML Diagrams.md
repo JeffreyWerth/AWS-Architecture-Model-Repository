@@ -6,7 +6,7 @@ SysML supports the specification, analysis, design, verification, and validation
 - Abstract Syntax is the set of rules that identify what you can and cannot do
 - Concrete Syntax is the set of notations that you are allowed to use on diagrams
 
-*Lesson 1 Reading: SysML Distilled - A Brief Guide to the Systems Modeling Language 1st Chapter 1 Overview of Model-Based Systems Engineering and Chapter 2 Overview of the Systems Modeling Language*
+*Lesson 1 Reading: SysML Distilled - A Brief Guide to the Systems Modeling Language 1st Edition Chapter 1 Overview of Model-Based Systems Engineering and Chapter 2 Overview of the Systems Modeling Language*
 
 ## What are SysML Diagrams?
 
