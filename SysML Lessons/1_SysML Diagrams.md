@@ -24,7 +24,7 @@ SysML supports the specification, analysis, design, verification, and validation
 
 The header always contains four pieces of information as shown in Figure 1 Diagram Format.
 
-![Diagram Format](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/SVGs/Diagrams%20Format.svg)
+![Diagram Format](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/Diagrams%20Format.svg)
 
 
 ### Header Format - diagramKind
