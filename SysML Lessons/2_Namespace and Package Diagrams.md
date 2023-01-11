@@ -24,4 +24,4 @@ The AWS SysML Architecture Repository is organized by AWS Services and Use Cases
 
 ## Package Diagram Containment Relationship
 
-![Package Diagram Containment Relationship](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/AWS%20Package%20Diagram%20Lesson.svg)
+![Package Diagram Containment Relationship](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/AWS%20Package%20Diagram%20Lesson%20-%20Containment%20Relationships.svg)
