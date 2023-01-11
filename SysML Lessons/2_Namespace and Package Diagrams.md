@@ -18,6 +18,10 @@ SysML models are organized into a hierarchical tree of packages that are much li
 
 ### Package Diagram for AWS SysML Architecture Repository
 
+The AWS SysML Architecture Repository is organized by AWS Services and Use Cases, bellow is Figure 3 AWS Package Diagram Example.
+
 ![AWS Package Diagram Example](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/AWS%20Package%20Diagram%20Lesson.svg)
 
 ## Package Diagram Containment Relationship
+
+![Package Diagram Containment Relationship](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/AWS%20Package%20Diagram%20Lesson.svg)
