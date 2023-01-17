@@ -77,7 +77,7 @@ To install drawio-desktop use the following GitHub repository (<https://github.c
 
 VSCode is a code editor redefined and optimized for building modern web and cloud applications and to manage your project using markdown language; this will allow you to fork or clone this project and to rapidly create your model views (<https://code.visualstudio.com/>).
 
-Also getting a GitHub (<https://github.com/>) account to manage your content online and share your project when publishing to GitHub for evaluation will allow team collaboration and sharing your model views. There are some useful resources on how to clone.........
+Also getting a GitHub (<https://github.com/>) account to manage your content online and share your project when publishing to GitHub for evaluation will allow team collaboration and sharing your model views. There are some useful resources on how to clone (<https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop#cloning-a-repository>).
 
 ### SysML Modeling Notes and Examples
 
