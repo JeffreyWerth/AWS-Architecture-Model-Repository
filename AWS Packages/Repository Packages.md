@@ -9,7 +9,7 @@ Specifying system use cases is a common design activity for systems engineering 
 The package will help manage the repository base on the AWS Marketplace use cases suggested through the AWS solution area site (https://aws.amazon.com/marketplace/solutions/awsmp-all-use-cases).
 ##  Security, identity & Compliance
 
-The package will help manage model elements related to been able to architect services and resources for customer-facing applications within AWS. To get a better flavor of what these services are, follow the link to AWS site (https://aws.amazon.com/products/security/).
+The package will help manage model elements related to been able to architect services and resources to manage security, identity and compliance for customer-facing applications within AWS. To get a better flavor of what these services are, follow the link to AWS site for security (https://aws.amazon.com/products/security/).
 
 ## Machine Learning
 
