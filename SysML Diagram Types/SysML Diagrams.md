@@ -1,4 +1,6 @@
-# SysML Diagram Types
+# SysML Language and Diagram Types
+
+To learn more about System Modeling Language, follow the link to the following summary lesson on SysML Diagrams (https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/1_SysML%20Diagrams.md).
 
 ## Structural Diagrams
 
