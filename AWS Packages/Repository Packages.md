@@ -28,8 +28,8 @@ The Storage Package will help manage model elements for AWS Storage Services, to
 
 ## Database
 
-The Database Package will help manage model elements for AWS Cloud Datatabse Services, 
-(https://aws.amazon.com/products/databases/)
+The Database Package will help manage model elements for AWS Cloud Database Services
+(https://aws.amazon.com/products/databases/).
 
 ## Networking & Content Delivery
 
