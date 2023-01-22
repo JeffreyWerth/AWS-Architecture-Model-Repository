@@ -11,7 +11,19 @@ Elements of Definition
 - Captures properties, etc
 - Reused in multiple contexts
 
-
+| Elements of Definition: |       | Elements of Usage:                                                                                                 |
+| ----------------------- | ----- | ------------------------------------------------------------------------------------------------------------------ |
+| Actor                   | types | Reference Property or Lifeline                                                                                     |
+| Block                   | types | Part Property, Reference Property, Lifeline, Atomic Flow Fort, Flow Property, Object Node, or Constraint Parameter |
+| Value Type              | types | value Property, Constraint Parameter, Atomic Flow Port, Flow Property, or Object Node                              |
+| Constraint Block        | types | Constraint Property                                                                                                |
+| Flow Specification      | types | Noatomic Flow Port                                                                                                 |
+| Signal                  | types | Atomic Flow Port, Flow Property, or Object Node                                                                    |
+| Interface               | types | Atomic Flow Port, Flow Property, or Objet Node                                                                     |
+| Association             | types | Connector                                                                                                          |
+| Activity                | types | Call Behavior Action                                                                                               |
+| Interaction             | types | Call Behavior Action                                                                                               |
+| State Machine           | types | Call Behavior Action                                                                                               |
 
 
 Elements of Usage
@@ -19,7 +31,19 @@ Elements of Usage
 -Also known as a role
 
 
-| Elements of Definition                    |                     | Elements of Usage |
-| ----------------------- | -------------------------------------------------------- | ------------- |
-| Actor             | types                            | Reference Property or Lifeline         |
-| Block  | types                                              |Part Property, Reference Property, Lifeline, Atomic Flow Fort, Flow Property, Object Node, or Constraint Parameter         |
+| Elements of Usage:                                |       | Elements of Definition:                 |
+| ------------------------------------------------- | ----- | --------------------------------------- |
+| Part Property                                     | types | Block                                   |
+| Reference Property                                | types | Block or Actor                          |
+| Value Property                                    | types | Value Type                              |
+| Constraint Property                               | types | Constraint Block                        |
+| Constraint Parameter                              | types | Value Type, Block                       |
+| Nonatomic Flow Port                               | types | Flow Specification                      |
+| Atomic Flow Port                                  | types | Block, Value Type, or Signal            |
+| Standard Port                                     | types | Interface                               |
+| Flow Property                                     | types | Block, Value Type, or Signal            |
+| Connector                                         | types | Association                             |
+| Call Behavior Action                              | types | Activity, Interaction, or State Mahcine |
+| Object Nide (includes Pin and Activity Parameter) | types | Block, Value Type, or Signal            |
+| Lifeline                                          | types | Block or Actor                          |
+
