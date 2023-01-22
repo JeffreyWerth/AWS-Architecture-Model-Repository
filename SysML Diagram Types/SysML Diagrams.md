@@ -103,4 +103,4 @@ To learn more about State,acjome Diagrams, follow the link to the summary lesson
 The purpose of Use Case diagrams is to provide a high-level view of the subject system and convey the top-level system requirements in non-technical terms for all stakeholders, including customers and project managers as well as architects and engineers.
 
 To learn more about Use Case Diagrams, follow the link to the summary lesson on Use Cases
-(https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/4_Use%20Case%20Diagrams.md)
+(https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/3_Use%20Case%20Diagrams.md)
