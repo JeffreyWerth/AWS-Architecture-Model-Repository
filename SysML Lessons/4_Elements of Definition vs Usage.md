@@ -17,3 +17,9 @@ Elements of Definition
 Elements of Usage
 - Part is the usage in the context of a composing block
 -Also known as a role
+
+
+| Elements of Definition                    |                     | Elements of Usage |
+| ----------------------- | -------------------------------------------------------- | ------------- |
+| Actor             | types                            | Reference Property or Lifeline         |
+| Block  | types                                              |Part Property, Reference Property, Lifeline, Atomic Flow Fort, Flow Property, Object Node, or Constraint Parameter         |
