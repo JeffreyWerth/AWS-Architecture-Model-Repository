@@ -1,4 +1,4 @@
-# Repository Packages Definitions
+# Repository Packages Scope
 
 This section covers the scope for all the GitHub structure packages used to host all the views and model elements that makes the AWS Architecture Model Repository open source project.
 
