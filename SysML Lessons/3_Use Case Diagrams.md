@@ -24,16 +24,16 @@ Use Case Diagrams are comprised of the following:
 
 See Example Figure 5 bellow.
 
-![Use Case Example]()
+![Use Case Example](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/AWS%20Use%20Case%20Lesson%20-%20Use%20Case%20Example.svg)
 
+<https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html>
+<https://docs.aws.amazon.com/AmazonS3/latest/userguide/monitoring-automated-manual.html>
 ### Subject
 
 Subject provides functionality in support of the use cases, represents a system being developed, also called the 'system under consideration'. The subject is represented by a rectangle on the use case diagram, see Figure 6.
 
 ![Use Case Subject Example]()
 
-<https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html>
-<https://docs.aws.amazon.com/AmazonS3/latest/userguide/monitoring-automated-manual.html>
 ### Actors
 
 Actors used to represent something that uses the system, but not 'part' of the System, simply actors interface with the system. 
