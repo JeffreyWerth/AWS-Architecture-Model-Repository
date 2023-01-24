@@ -32,7 +32,7 @@ See Example Figure 5 bellow.
 
 Subject provides functionality in support of the use cases, represents a system being developed, also called the 'system under consideration'. The subject is represented by a rectangle on the use case diagram, see Figure 6.
 
-![Use Case Subject Example]()
+![Use Cases Subject](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/AWS%20Use%20Case%20Lesson%20-%20Use%20Case%20Subject.svg)
 
 ### Actors
 
@@ -41,15 +41,15 @@ Actors used to represent something that uses the system, but not 'part' of the S
 Actors can be a person or another system, usually depicted by a stick figure and/or block with **<<actor>>** label, see Figure 7. Name the Actors base on the **role** they perform as a user of the system (e.g. customer, administrator, developer etc)
 
 
-![Use Case Actors Example]()
+![Use Case Actors](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/AWS%20Use%20Case%20Lesson%20-%20Use%20Case%20Actors.svg)
 ### Use Cases or Actions
 
 Actions are represent the goals that a system will support, depicted by an oval with the Use Case name inside. Name should consist of a verb and a noun that descirbe the functionality of the system (e.g. deploy static website)
 
-
+![Use Cases Actions](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/AWS%20Use%20Case%20Lesson%20-%20Use%20Case%20Actions.svg)
 ### Relationships
 
-
+![Use Cases Relationships](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/AWS%20Use%20Case%20Lesson%20-%20Use%20Case%20Relationships.svg)
 ## Default Multiplicities
 
 ## Summary
