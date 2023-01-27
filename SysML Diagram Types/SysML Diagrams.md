@@ -8,7 +8,7 @@ The elements in a structure diagram represent the meaningful concepts of a syste
 
 - Block Definition Diagrams 
 - Internal Block Diagrams 
-    - Parametric Diagrams mark
+    - Parametric Diagrams
 - Package Diagrams 
 
 ## Block Definition Diagram (bdd)
