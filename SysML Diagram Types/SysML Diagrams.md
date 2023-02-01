@@ -8,7 +8,7 @@ The elements in a structure diagram represent the meaningful concepts of a syste
 
 - Block Definition Diagrams 
 - Internal Block Diagrams 
-    - Parametric Diagrams mark
+    - Parametric Diagrams
 - Package Diagrams 
 
 ## Block Definition Diagram (bdd)
@@ -32,7 +32,7 @@ An Internal Block Diagram is a static structural diagram owned by a particular B
 The purpose of Internal Block Diagrams (IBDs) is to show the encapsulated structural contents (Parts, Properties, Connectors, Ports, Interfaces) of Blocks so that they can be recursively decomposed and "wired" using Interface Based Design techniques
 
 To learn more about Internal Block Diagrams, follow the link to the summary lesson on ibd
-(https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/6_Internal%20Block%20Digrams.md)
+(https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/7_Internal%20Block%20Digrams.md)
 
 ### Parametric Diagram (par)
 
@@ -40,7 +40,7 @@ A Parametric diagram is a specialization of an Internal Block Diagram (IBD) that
 The purpose of Parametric diagrams (PARs) is to enforce mathematical rules across Block Value Properties.
 
 To learn more about parametric Diagrams, follow the link to the summary lesson on par
-(https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/7_Parametric%20Diagrams.md)
+(https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/8_Parametric%20Diagrams.md)
 
 ## Package Diagram (pkg)
 
@@ -76,7 +76,7 @@ An Activity diagram shows system dynamic behavior using a combined Control Flow 
 The purpose of Activity diagrams is to specify dynamic system behaviors that Satisfy («satisfy» Dependency) system Functional Requirements using both Control and Object (data) Flows.
 
 To learn more about Acitivity Diagrams, follow the link to the summary lesson on act
-(https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/8_Activity%20Diagrams.md)
+(https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/6_Activity%20Diagrams.md)
 
 ## Sequence Diagram (seq)
 

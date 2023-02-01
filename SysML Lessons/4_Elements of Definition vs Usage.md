@@ -4,8 +4,6 @@ The term definition refers to a model element that is a classifier or type such 
 
 The elements in the BDD are **elements of definition** while the elements in the IBD are **elements of usage**.
 
-
-
 Elements of Definition
 - Block is a definition/type
 - Captures properties, etc
