@@ -42,6 +42,6 @@ Elements of Usage
 | Flow Property                                     | types | Block, Value Type, or Signal            |
 | Connector                                         | types | Association                             |
 | Call Behavior Action                              | types | Activity, Interaction, or State Mahcine |
-| Object Nide (includes Pin and Activity Parameter) | types | Block, Value Type, or Signal            |
+| Object Node (includes Pin and Activity Parameter) | types | Block, Value Type, or Signal            |
 | Lifeline                                          | types | Block or Actor                          |
 
