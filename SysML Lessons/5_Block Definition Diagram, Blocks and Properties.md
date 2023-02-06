@@ -18,7 +18,7 @@ A Block Definition Diagram is a static structural diagram that shows system comp
   - Model elements type that the diagram frame represents: package, model, model library, view, block, constraintBlock
   - Model element the diagram represents: namespace (model element that contains other model elements)
 
-![BDD Frame](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/AWS%20Use%20Case%20Lesson%20-%20Use%20Case%20Actions.svg)
+![BDD Frame](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/BDD%20Lesson%20-%20BDD%20Frame.svg)
 
 
 ## Use of Block Features
