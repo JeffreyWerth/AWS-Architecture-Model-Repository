@@ -34,7 +34,7 @@ A Block Definition Diagram is a static structural diagram that shows system comp
   - Represents a type of entity, not an instance
 - Block notation: rectangle with stereotype <<<block>>> preceding the name in the name compartment
 
-        ![Block](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/BDD%20Lesson%20-%20block.svg)
+      ![Block](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/BDD%20Lesson%20-%20block.svg)
 
 ### Part Properties
 
