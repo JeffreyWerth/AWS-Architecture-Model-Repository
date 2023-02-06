@@ -44,7 +44,7 @@ Actors can be a person or another system, usually depicted by a stick figure and
 ![Use Case Actors](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/AWS%20Use%20Case%20Lesson%20-%20Use%20Case%20Actors.svg)
 ### Use Cases or Actions
 
-Actions are represent the goals that a system will support, depicted by an oval with the Use Case name inside. Name should consist of a verb and a noun that descirbe the functionality of the system (e.g. Deploy Static Website, Deploy Website, Log Web Traffic and Create a bucket)
+Actions are represent the goals that a system will support, depicted by an oval with the Use Case name inside. Name should consist of a verb and a noun that describe the functionality of the system (e.g. Deploy Static Website, Deploy Website, Log Web Traffic and Create a bucket)
 
 ![Use Cases Actions](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/AWS%20Use%20Case%20Lesson%20-%20Use%20Case%20Actions.svg)
 ### Relationships

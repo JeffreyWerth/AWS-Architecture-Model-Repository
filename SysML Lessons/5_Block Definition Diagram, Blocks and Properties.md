@@ -1,11 +1,24 @@
 # Block Definition Diagrams (BDD)
 
+A Block Definition Diagram is a static structural diagram that shows system components, their contents (Properties, Behaviors, Constraints), Interfaces, and relationships.
+
+*Lesson 5 reading: SysML Distilled - A Brief Guide to the Systems Modeling Language 1st Edition Chapter 3 Block Definition Diagrams*
 
 ## Purpose and Use
 
-
+- BDD: Express information about a system's structure
+- BDD model elements: blocks, actors, value types, constraint blocks, flow specifications, & interfaces
+  - Elements that appear on a BDD = elements of definition
+- BDDs display the structural relationships among elements of definition
 
 ### BDD Frame
+
+- The BDD frame
+  - Diagram kind abbreviation:bdd
+  - Model elements type that the diagram frame represents: package, model, model library, view, block, constraintBlock
+  - Model element the diagram represents: namespace (model element that contains other model elements)
+
+![BDD Frame](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/AWS%20Use%20Case%20Lesson%20-%20Use%20Case%20Actions.svg)
 
 
 ## Use of Block Features
