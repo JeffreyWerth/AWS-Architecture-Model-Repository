@@ -20,7 +20,7 @@
 - ‘typed by’ a “block”
 - Notation = name? : type [multiplicity, 1..1]
 
-    ![Block](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/BDD%20Lesson%20-%20block.svg)
+    ![Block](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/BDD%20Lesson%20-%20Part%20Properties.svg)
 
 
 - Multiplicity: constraint on the number of instances that the part property can represent within the composite
