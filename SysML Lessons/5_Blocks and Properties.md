@@ -18,7 +18,7 @@
 - Represents a structure that is internal to the block
 - Represents ownership (a part property can belong to only one composite structure at a time) 
 - ‘typed by’ a “block”
-- Notation = <(name)>? : <(type)> [multiplicity]
+- Notation = name? : type [multiplicity, 1..1]
 
     ![Block](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/BDD%20Lesson%20-%20block.svg)
 
