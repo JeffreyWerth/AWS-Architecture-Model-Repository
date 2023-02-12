@@ -25,7 +25,7 @@ A Block Definition Diagram is a static structural diagram that shows system comp
 - Elements of Definition vs. Elements of Usage (reference Lesson 4 Tables)
   - Definition of types
     - Notation: name only
-      - DesktopWorkstation
+      - S3_bucket
   - Usage (instances) of types
     - Notation: name and type; separate by colon
       - S3_bucket : S3
@@ -35,7 +35,7 @@ A Block Definition Diagram is a static structural diagram that shows system comp
 
     ![Block](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/BDD%20Lesson%20-%20block.svg)
 
-## Element of Definition
+## Element of Definition and Usage
 
 The term definition refers to a model element that is a classifier or type such as a block. The element is defined by specifying its features such as the properties and operations of a block. The term usage identifies a defined element in a particular context; for now I want you to understand this concept on this lesson, bellow are some examples.
 
