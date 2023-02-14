@@ -162,7 +162,7 @@
     - The reception must have a parameter with a compatible type for each property of the signal
 - Reception notation: << signal>> < reception name> (< parameter list>)
     - Reception name must match the name of the signal that triggers it ![Receptions]()
-    - Parameter notation: < parameter name> : < type> [< multiplicity>] = < default value> ![Receptions]()
+    - Parameter notation: < parameter name> : < type> [< multiplicity>] = < default value>
         - Parameter name is modeler defined
         - Type: value type or block that exists somewhere in the system model
         - Multiplicity: constraint on the number of instances of the type that the parameter can represent
