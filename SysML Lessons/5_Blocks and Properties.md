@@ -145,8 +145,8 @@
                 - Direction: in, out, inout
                 - Parameter name is modeler defined
         - Type: value type or block created somewhere in the system model     ![Operations]()
-                - Multiplicity: constraint on the number of instances of the type that the parameter can represent
-                - Default value: value assigned to the parameter if no value is specified as an argument when the operation is called
+            - Multiplicity: constraint on the number of instances of the type that the parameter can represent
+            - Default value: value assigned to the parameter if no value is specified as an argument when the operation is called
         - Return type: value type or block created somewhere in the system model
         - Multiplicity: # of instances of the return type the operation can return to the caller when it completes
 - Good practice: use a verb phrase to name an operation (it’s a behavior!)
@@ -161,8 +161,8 @@
     - The client can add values for properties to the instance of a signal
     - The reception must have a parameter with a compatible type for each property of the signal
 - Reception notation: << signal>> < reception name> (< parameter list>)
-    - Reception name must match the name of the signal that triggers it
-  - Parameter notation: < parameter name> : < type> [< multiplicity>] = < default value> ![Receptions]()
+    - Reception name must match the name of the signal that triggers it ![Receptions]()
+    - Parameter notation: < parameter name> : < type> [< multiplicity>] = < default value> ![Receptions]()
         - Parameter name is modeler defined
         - Type: value type or block that exists somewhere in the system model
         - Multiplicity: constraint on the number of instances of the type that the parameter can represent
