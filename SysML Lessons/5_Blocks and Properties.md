@@ -170,44 +170,142 @@
 - Receptions cannot have return types (b/c they are asynchronous)
     - Parameters can only be inputs and never outputs
 
-
 ## Use of Associations Relationships
 
+- Two types of association relationships: reference and composite
+    - Reference association corresponds to a reference property
+    - Composite association corresponds to a part property
+- Associations are an alternative notation to convey these kinds of structural relationships within a system
+        ![Associations]()
 
 ### Reference Associations
 
-
+- A reference association between two blocks means that a connection can exist between instances of those blocks in an operational system
+    - These instances can access each other for some purpose across the connection
+- Notation: solid line between two blocks
+    - Open arrowhead on one end conveys unidirectional access
+    - Absence of arrowheads on either end conveys bidirectional access
+- Association labels:
+    - Optionally display association name floating near the middle of the line
+        - Association name is modeler defined
+    - Optionally display a role name and multiplicity on either end of the line
+        - Role name corresponds to a reference property owned by the block at the opposite end
+        - Typed by the block that it’s next to
+        - Multiplicity show on the end of a reference association (near role name) corresponds to the multiplicity of that same reference property
+        ![Reference Associations]()
 
 ### Composite Relationships
 
+- Conveys structural decomposition
+- An instance of a block at the composite end is made up of some number of instances of the block at the part end
+- Notation: solid line between two blocks with a solid diamond on the composite end
+    - Open arrowhead at the part end conveys unidirectional access from the composite to its part
+    - Absence of an arrowhead conveys bidirectional access
+        ![Composite Relationships]()
 
+- Role name shown on the part end corresponds to the name of a part property- that’s owned by the block at the composite end and typed by the block at the part end
+- Multiplicity on the part end is not restricted- a composite structure can be made up of an arbitrary number of instances of parts
+- Multiplicity on the composite end is restricted- a part can only belong to one composite at a time (upper bound on the composite end must always be 1)
+    - Lower bound of 0 means a part can be removed from it’s composite
+    - Lower bound of 1 means a part cannot be removed from it’s composite
+    - DEFAULT multiplicity on a composite end of a composite association is [ 0..1]
+        ![Composite Relationships]()
 
 ## Use of Generalization Relationships
 
-
+- Generalization relationship: conveys inheritance between two elements; used to create classification trees
+    - Supertype: generalized element
+    - Subtype: specialized element
+- Notation: solid line with a hollow, triangular arrow head on the end of the supertype
+    - Read as “subtype is a type of supertype”
+        ![Generalization Relationships]()
+- Generalizations are transitive – type hierarchies can be arbitrarily deep
+    - Subtypes inherit ALL the features of the supertype (structural and behavioral)
+    - Subtypes are a specialization of it’s supertype – can have other features its supertype does not have
+- Generalizations can be used to define abstractions – factors out features that are common among the subtypes
+    - Define a common feature in one place within the model (in the supertype) and that common feature propagates down to the type hierarchy to all subtypes
+    - Abstractions convey substitutability – a subtype will be accepted wherever it’s supertype is required
+        ![Generalization Relationships]()
 
 ## Dependency Relationships
 
-
+- Dependency relationship: a client element relies on a supplier element; when the supplier element changes, the client element may also have to change
+- Dependencies are a structure of the model, not of the system the model represents
+- Notation (on a BDD): dashed line with an open arrowhead drawn from client to supplier
+        ![Dependency Relationships]()
 
 ## Use of Actors
 
-
+- Actor: represents someone or something that has an external interface with your system
+- Name of an actor conveys a role played by a person, organization, or other system when it interacts with your system
+- Notations:  
+    - Stick figure
+    - Rectangle with keyword << actor>> preceding the name
+- Key ideas about generalizations, reference associations, and composite associations apply when actors are involved in these relationships – EXCEPT:
+    - A generalization cannot be defined between an actor and a block
+    - An actor cannot have parts (cannot appear at the composite end of a composite association – actors are regarded as a black box)
+        ![Actor]()
 
 ## Use of Value Types
 
+- Value Type: element of definition which defines a type of quantity (except Boolean and string)
+- Appear as types for the following:
+    - Value Property (most common)
+    - Atomic flow ports on blocks and actors
+    - Flow properties in flow specifications
+    - Constraint parameters in constraint blocks
+    - Item flows and item properties on connectors
+    - Return types of operations
+    - Parameters of operations and receptions
+    - Object nodes, pins, and activity parameters within activities
 
+- 3 types: primitive, structured, and enumerated
+    - Primitive: no internal structure
+        - Notation: rectangle with stereotype << valueType>> preceding the name
+        - 4 types: String, Boolean, Integer, Real (can define specializations of these supertypes)
+    - Structured: has an internal structure (two or more value properties)
+        - Notation: rectangle with stereotype < valueType>> preceding the name
+        - 1 type: complex (two parts – realPart and imaginaryPart, both of type Real
+    - Enumerated: defines a set of literals (legal values)
+- Value Types can be related to one another using generalization
+    - Generalizations are transitive
+    - Substitutability principle applies
+        ![Value Type]()
 
 ## Use of Constraint Blocks
 
-
+- Special kind of block (element of definition)- used to encapsulate a reusable constraint expression
+    - Constraint expression: usually an equation or an inequality
+        - Variables are called constraint parameters (often represent quantities and are typed by value types)
+        - Constraint parameters receive their values from the value properties they’re bound to (displayed on a parametric diagram)
+- Notation: rectangle with the stereotype << constraint>> preceding the name
+    - Constraint expression appears between curly brackets { } in the constraint compartment
+    - Constraint parameters are listed in the parameters compartment
+- Can create complex constraint blocks from a set of simpler constraint blocks
+     - Complex constraint block displays constituent parts as a list of constraints properties in the constraints compartment
+    - Can also use composite associations to convey that one constraint block is composed of other, simpler ones
+            ![Constraint Block]()
 
 ## Use of Comments
 
+- Comment: model element used to express information on a diagram in an unconstrained way as a block of text
+- Consists of a single attribute: a string of text called the body
+- You can attach a comment to other elements on a diagram (and it can be attached to multiple elements)
+- Notation: note symbol, rectangle whose upper right corner is bent
+    - A dashed line is used to attach a comment to other elements
+- Specialized kinds of comments: rationale, problem, diagram description
+    - Appear as a note symbol with respective stereotype preceding the body of the comment (ex. << rationale>>)
+            ![Comments]()
 
 ## Default Multiplicities
 
-
+- Association BDDs
+- SysML defines defaults for multiplicities on the ends of specific types of associations. 
+    - A part or shared association has a default multiplicity of [ 0..1] on the black or white diamond end. 
+    - A unidirectional association has a default multiplicity of 1 on its target end. 
+    - These multiplicities may be assumed if not shown on a diagram. 
+    - To avoid confusion, any multiplicity other than the default should always be shown on a diagram.*
+            ![Multiplicities]()
 
 
 
