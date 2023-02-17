@@ -40,7 +40,7 @@
     - Unconstrained number of instances: [ 0..*] or [ *]
     - If no multiplicity is shown for a reference property, the default is 1; [ 1..1]
 
-    ![Reference Property]()
+    ![Reference Property](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/BDD%20Lesson%20-%20References%20Properties.svg)
 
 ## Value Properties
 
@@ -49,7 +49,7 @@
     - Typed by a value type somewhere in the system model
     - < default value> is optional
 
-    ![Value Properties]()
+    ![Value Properties](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/BDD%20Lesson%20-%20Value%20Properties.svg)
 
 - Multiplicity: constraint on the number of instances that the value property can represent within the composite
     - Expressed as a single integer OR a range of integers
@@ -68,7 +68,7 @@
   - Typed by a constraint block somewhere in the system model
     - constraint blocks generally encapsulate mathematical equations
   
-    ![Constraint Properties]()
+    ![Constraint Properties](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/BDD%20Lesson%20-%20Constraint%20Properties.svg)
 
 - Blocks can own constraint properties to constrain value properties
 
