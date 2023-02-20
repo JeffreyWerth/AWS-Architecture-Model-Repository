@@ -35,4 +35,6 @@ a*ctors that provide a service to the system (participate in the use case by per
 ## Related Information:
 *whatever your project needs for additional information
 
-![Use Case - Iot Traffic Management](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/AWS%20Packages/Use%20Cases/IoT%20Traffic%20Management/Use%20Case%20-%20Remote%20Monitoring%20Traffic.svg)
+
+## Use Case - IoT Traffic Management
+![Use Case - IoT Traffic Management](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/AWS%20Packages/Use%20Cases/IoT%20Traffic%20Management/Use%20Case%20-%20Remote%20Monitoring%20Traffic.svg)
