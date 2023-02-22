@@ -59,8 +59,6 @@
 - Can hold values that are both assigned or derived (calculated)
     - A forward slash (/) in front of the value name conveys value property is derived
 
-    ![Value Properties]()
-
 ## Constraint Properties
 
 - Represents a mathematical relationship that is imposed on a set of value properties
@@ -77,6 +75,8 @@
 - Represents a distinct interaction point at the boundary of a structure through which external entities can interact with that structure – to:
     - Provide or request a service
     - Exchange matter, energy, or data
+
+    ![Ports](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/BDD%20Lesson%20-%20Ports.svg)
 - Decouples a block’s clients from any particular internal implementation
 - Can represent any type of interaction point
     - Physical object (fuel nozzle, HDMI jack)
