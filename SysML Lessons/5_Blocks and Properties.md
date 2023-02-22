@@ -75,9 +75,8 @@
 - Represents a distinct interaction point at the boundary of a structure through which external entities can interact with that structure – to:
     - Provide or request a service
     - Exchange matter, energy, or data
-
-    ![Ports](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/BDD%20Lesson%20-%20Ports.svg)
 - Decouples a block’s clients from any particular internal implementation
+    ![Block Port Properties](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/BDD%20Lesson%20-%20Ports%20Block%20Compartment.svg)
 - Can represent any type of interaction point
     - Physical object (fuel nozzle, HDMI jack)
     - Software object (message queue, GUI)
@@ -92,7 +91,8 @@
     - (most often) Displayed as a small square straddling the border of a block
     - Can have a modeler defined name
     - Can have one or more types
-    - Types are the interfaces assigned        ![Standard Port]()
+  - Types are the interfaces assigned
+    ![Ports](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/BDD%20Lesson%20-%20Ports.svg)
 - Interfaces
     - Element of definition
   - Defines a set of operations and receptions that clients and providers will conform to      ![Interface Block]()
