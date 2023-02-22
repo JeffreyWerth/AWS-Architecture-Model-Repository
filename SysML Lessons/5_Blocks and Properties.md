@@ -96,7 +96,7 @@
   - Types are the interfaces assigned
 
     ![Ports](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/BDD%20Lesson%20-%20Ports.svg)
-    
+
 - Interfaces
     - Element of definition
   - Defines a set of operations and receptions that clients and providers will conform to      ![Interface Block]()
