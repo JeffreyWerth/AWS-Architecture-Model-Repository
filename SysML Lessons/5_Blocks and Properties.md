@@ -93,13 +93,13 @@
     - (most often) Displayed as a small square straddling the border of a block
     - Can have a modeler defined name
     - Can have one or more types
-  - Types are the interfaces assigned
+        - Types are the interfaces assigned
 
     ![Ports](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/BDD%20Lesson%20-%20Ports.svg)
 
 - Interfaces
     - Element of definition
-  - Defines a set of operations and receptions that clients and providers will conform to      ![Interface Block]()
+    - Defines a set of operations and receptions that clients and providers will conform to      
     - Assigned as either a provided interface or a required interface
         - Provided interface is displayed with the ball notation
         - A block that provides an interface must implement all of the interface’s operations and receptions
