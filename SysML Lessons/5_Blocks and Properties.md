@@ -117,17 +117,22 @@
 ### Flow Ports
 
 - (most often) Displayed as a small square straddling the border of a block and a symbol inside the small square
-          ![Flow Ports]()
 - Can have a modeler defined name and type; name and type shown as a string floating near the flow port
     - Format = < name> : < type>
+
+    ![Flow Ports](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/BDD%20Lesson%20-%20Flow%20Port.svg)
+
 - Two types of flow ports: nonatomic and atomic
+
 
 #### Nonatomic Flow Ports
 
 - Symbolized as <>: multiple types of items can flow in and out of that port
 - Typed by a flow specification defined somewhere in the system model
 - Flow specification- element of definition; defines a set of flow properties that can flow in or out of nonatomic flow port
-          ![Flow Specification]()
+
+          ![Flow Specification](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/BDD%20Lesson%20-%20Flow%20Specification.svg)
+
 - Flow property- specific item that can flow in or out of a block via a flow port (has a direction, name, and type)
     - Notation = < direction> < name> : < type>
         - Direction can be in, out, inout
