@@ -199,7 +199,7 @@
     - Reference association corresponds to a reference property
     - Composite association corresponds to a part property
 - Associations are an alternative notation to convey these kinds of structural relationships within a system
-        ![Associations]()
+        ![Associations](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/BDD%20Lesson%20-%20Association.svg)
 
 ### Reference Associations
 
