@@ -112,7 +112,7 @@
         - Required interface is displayed using the socket notation
         - A block that requires an interface may invoke one or more of it’s operations and receptions (but not necessarily all)
 
-            ![Ports]()
+            ![Port Provided and Required Interface](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/BDD%20Lesson%20-%20Port%20Ball%20and%20Socket.svg)
 
 ### Flow Ports
 
