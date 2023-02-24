@@ -226,7 +226,7 @@
     - Open arrowhead at the part end conveys unidirectional access from the composite to its part
     - Absence of an arrowhead conveys bidirectional access
 
-        ![Composite Relationships](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/BDD%20Lesson%20-%20Composite%20Association.svg)
+        ![Composite Relationships]((https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/BDD%20Lesson%20-%20Composite%20Association.svg))
 
 - Role name shown on the part end corresponds to the name of a part property- that’s owned by the block at the composite end and typed by the block at the part end
 - Multiplicity on the part end is not restricted- a composite structure can be made up of an arbitrary number of instances of parts
@@ -234,7 +234,7 @@
     - Lower bound of 0 means a part can be removed from it’s composite
     - Lower bound of 1 means a part cannot be removed from it’s composite
     - DEFAULT multiplicity on a composite end of a composite association is [ 0..1]
-        ![Composite Relationships]()
+
 
 ## Use of Generalization Relationships
 
@@ -243,14 +243,16 @@
     - Subtype: specialized element
 - Notation: solid line with a hollow, triangular arrow head on the end of the supertype
     - Read as “subtype is a type of supertype”
-        ![Generalization Relationships]()
+
+        ![Generalization Relationships](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/BDD%20Lesson%20-%20Generalization.svg)
+
 - Generalizations are transitive – type hierarchies can be arbitrarily deep
     - Subtypes inherit ALL the features of the supertype (structural and behavioral)
     - Subtypes are a specialization of it’s supertype – can have other features its supertype does not have
 - Generalizations can be used to define abstractions – factors out features that are common among the subtypes
     - Define a common feature in one place within the model (in the supertype) and that common feature propagates down to the type hierarchy to all subtypes
     - Abstractions convey substitutability – a subtype will be accepted wherever it’s supertype is required
-        ![Generalization Relationships]()
+     
 
 ## Dependency Relationships
 
