@@ -144,7 +144,9 @@
 
 - Symbolized as an arrow conveying direction of flow
 - Single type of item can flow in or out via that port
-          ![Atomic Flow Ports]()
+
+    ![Atomic Flow Ports](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/BDD%20Lesson%20-%20Atomic%20Flow%20Ports.svg)
+
 - Type is a value type, block, or signal created somewhere in the system model
 
 ## Operations
