@@ -226,7 +226,7 @@
     - Open arrowhead at the part end conveys unidirectional access from the composite to its part
     - Absence of an arrowhead conveys bidirectional access
 
-        ![Composite Relationships]((https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/BDD%20Lesson%20-%20Composite%20Association.svg))
+        ![Composite Relationships](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/BDD%20Lesson%20-%20Composite%20Association.svg)
 
 - Role name shown on the part end corresponds to the name of a part property- that’s owned by the block at the composite end and typed by the block at the part end
 - Multiplicity on the part end is not restricted- a composite structure can be made up of an arbitrary number of instances of parts
