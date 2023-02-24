@@ -104,7 +104,7 @@
     - Element of definition
     - Defines a set of operations and receptions that clients and providers will conform to
     
-    ![Interface Blocks](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/BDD%20Lesson%20-%20Interface%20Blocks.svg)
+       ![Interface Blocks](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/BDD%20Lesson%20-%20Interface%20Blocks.svg)
 
     - Assigned as either a provided interface or a required interface
         - Provided interface is displayed with the ball notation
