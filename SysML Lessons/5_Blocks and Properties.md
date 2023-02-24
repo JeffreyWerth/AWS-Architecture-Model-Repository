@@ -8,8 +8,8 @@
     - Constraint properties
     - Ports
 - 2 kinds of behavioral features
-- Operations
-- Receptions
+    - Operations
+    - Receptions
 
 *Lesson 5 reading: SysML Distilled - A Brief Guide to the Systems Modeling Language 1st Edition Chapter 3 Block Definition Diagrams*
 
