@@ -259,7 +259,7 @@
 - Dependency relationship: a client element relies on a supplier element; when the supplier element changes, the client element may also have to change
 - Dependencies are a structure of the model, not of the system the model represents
 - Notation (on a BDD): dashed line with an open arrowhead drawn from client to supplier
-        ![Dependency Relationships]()
+        ![Dependency Relationships](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/BDD%20Lesson%20-%20Dependecy.svg)
 
 ## Use of Actors
 
@@ -271,7 +271,7 @@
 - Key ideas about generalizations, reference associations, and composite associations apply when actors are involved in these relationships – EXCEPT:
     - A generalization cannot be defined between an actor and a block
     - An actor cannot have parts (cannot appear at the composite end of a composite association – actors are regarded as a black box)
-        ![Actor]()
+        ![Actor](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/BDD%20Lesson%20-%20Actor.svg)
 
 ## Use of Value Types
 
@@ -297,7 +297,7 @@
 - Value Types can be related to one another using generalization
     - Generalizations are transitive
     - Substitutability principle applies
-        ![Value Type]()
+        ![Value Type](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/BDD%20Lesson%20-%20Value%20Types.svg)
 
 ## Use of Constraint Blocks
 
@@ -311,7 +311,7 @@
 - Can create complex constraint blocks from a set of simpler constraint blocks
      - Complex constraint block displays constituent parts as a list of constraints properties in the constraints compartment
     - Can also use composite associations to convey that one constraint block is composed of other, simpler ones
-            ![Constraint Block]()
+            ![Constraint Block](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/BDD%20Lesson%20-%20Constraint%20Block.svg)
 
 ## Use of Comments
 
@@ -322,7 +322,7 @@
     - A dashed line is used to attach a comment to other elements
 - Specialized kinds of comments: rationale, problem, diagram description
     - Appear as a note symbol with respective stereotype preceding the body of the comment (ex. << rationale>>)
-            ![Comments]()
+            ![Comments](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/BDD%20Lesson%20-%20Constraint%20Block.svg)
 
 ## Default Multiplicities
 
@@ -332,7 +332,7 @@
     - A unidirectional association has a default multiplicity of 1 on its target end. 
     - These multiplicities may be assumed if not shown on a diagram. 
     - To avoid confusion, any multiplicity other than the default should always be shown on a diagram.*
-            ![Multiplicities]()
+    
 
 
 
