@@ -215,7 +215,8 @@
         - Role name corresponds to a reference property owned by the block at the opposite end
         - Typed by the block that it’s next to
         - Multiplicity show on the end of a reference association (near role name) corresponds to the multiplicity of that same reference property
-        ![Reference Associations]()
+        
+        ![Reference Associations](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/BDD%20Lesson%20-%20Reference%20Association.svg)
 
 ### Composite Relationships
 
