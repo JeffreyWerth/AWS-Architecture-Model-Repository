@@ -70,6 +70,9 @@
 
 - Blocks can own constraint properties to constrain value properties
 
+    ![Constraint to Value Property](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/BDD%20Lesson%20-%20Constraint_Value%20Properties.svg)
+
+
 ## Ports
 
 - Represents a distinct interaction point at the boundary of a structure through which external entities can interact with that structure – to:
