@@ -131,7 +131,7 @@
 - Typed by a flow specification defined somewhere in the system model
 - Flow specification- element of definition; defines a set of flow properties that can flow in or out of nonatomic flow port
 
-          ![Flow Specification](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/BDD%20Lesson%20-%20Flow%20Specification.svg)
+    ![Flow Specification](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/BDD%20Lesson%20-%20Flow%20Specification.svg)
 
 - Flow property- specific item that can flow in or out of a block via a flow port (has a direction, name, and type)
     - Notation = < direction> < name> : < type>
