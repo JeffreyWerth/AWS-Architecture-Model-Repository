@@ -161,7 +161,10 @@
             - Parameter notation: < direction> < parameter name> : < type> [< multiplicity>] = < default value>
                 - Direction: in, out, inout
                 - Parameter name is modeler defined
-        - Type: value type or block created somewhere in the system model     ![Operations]()
+
+        ![Operations](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/BDD%20Lesson%20-%20Operations.svg)
+
+        - Type: value type or block created somewhere in the system model
             - Multiplicity: constraint on the number of instances of the type that the parameter can represent
             - Default value: value assigned to the parameter if no value is specified as an argument when the operation is called
         - Return type: value type or block created somewhere in the system model
@@ -177,8 +180,11 @@
     - Signal properties become inputs to the reception
     - The client can add values for properties to the instance of a signal
     - The reception must have a parameter with a compatible type for each property of the signal
+
+        ![Receptions](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/BDD%20Lesson%20-%20Receptions.svg)
+
 - Reception notation: << signal>> < reception name> (< parameter list>)
-    - Reception name must match the name of the signal that triggers it ![Receptions]()
+    - Reception name must match the name of the signal that triggers it 
     - Parameter notation: < parameter name> : < type> [< multiplicity>] = < default value>
         - Parameter name is modeler defined
         - Type: value type or block that exists somewhere in the system model
