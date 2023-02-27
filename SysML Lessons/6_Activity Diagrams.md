@@ -53,7 +53,7 @@
         - Type is the name of a block, value type, or signal defined within the model
         - Multiplicity is the number of object tokens the pin can hold at any given moment/the number of object tokens required by an action
         
-        ![Object Node](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/ACT%20Lesson%20-%20Object%20Node.svg)
+    ![Object Node](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/ACT%20Lesson%20-%20Object%20Node.svg)
 
 - Optional pin:
     - Lower multiplicity of 0
@@ -62,14 +62,16 @@
 
 ### Pin
 
-Models the flow of object tokens through an activity
-Most often appears between 2 actions to convey that the first action produces object tokens as outputs, and the second action consumes those object tokens as inputs
-Notation:
-Rectangle with name string:
-<object node name>:<type>[<multiplicity>]
-Object node name is user defined
-Type is the name of a block, value type, or signal defined within the model
-Multiplicity is the number of object tokens the object node can hold at any given moment (default is 1:1)
+- Models the flow of object tokens through an activity
+- Most often appears between 2 actions to convey that the first action produces object tokens as outputs, and the second action consumes those object tokens as inputs
+- Notation:
+    - Rectangle with name string:
+    <object node name>:<type>[<multiplicity>]
+        - Object node name is user defined
+        - Type is the name of a block, value type, or signal defined within the model
+        - Multiplicity is the number of object tokens the object node can hold at any given moment (default is 1:1)
+
+    ![Pin]](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/ACT%20Lesson%20-%20Pin.svg)
 
 ### Activity Parameter
 
