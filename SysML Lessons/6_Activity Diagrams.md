@@ -44,18 +44,21 @@
 
 ### Basic Object Node
 
-Input or output of a single action within an activity
-Attach a pin to an action
-Notation:
-Small square attached to the boundary on the outside of an action with name string:
-<pin name>:<type>[<multiplicity>]
-Pin name is user defined
-Type is the name of a block, value type, or signal defined within the model
-Multiplicity is the number of object tokens the pin can hold at any given moment/the number of object tokens required by an action
-Optional pin:
-Lower multiplicity of 0
-Optional input pin: Action can start with no object token at pin
-Optional output pin: Action can execute and produce no object token at pin
+- Input or output of a single action within an activity
+- Attach a pin to an action
+- Notation:
+    - Small square attached to the boundary on the outside of an action with name string:
+    <pin name>:<type>[<multiplicity>]
+        - Pin name is user defined
+        - Type is the name of a block, value type, or signal defined within the model
+        - Multiplicity is the number of object tokens the pin can hold at any given moment/the number of object tokens required by an action
+        
+        ![Object Node](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/ACT%20Lesson%20-%20Object%20Node.svg)
+
+- Optional pin:
+    - Lower multiplicity of 0
+    - Optional input pin: Action can start with no object token at pin
+    - Optional output pin: Action can execute and produce no object token at pin
 
 ### Pin
 
