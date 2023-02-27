@@ -261,7 +261,21 @@ Remains enabled
 
 ### Wait Time Actions
 
+- An accept event action that waits for a time event occurrence
+- Absolute time event: begins with the word “at”
+- Relative time event: begins with the word “after”
+- Becomes enabled when a control token arrives on its incoming control flow
+    - If absolute time event has already occurred:
+        - Wait time action completes immediately
+    - If absolute time event has NOT occurred:
+        - Wait time action waits for that time event to occur
+    - Clock for the relative time event begins when the wait time action becomes enabled
+- Wait time action does NOT need any incoming edges
+    - Starts executing as soon as the activity begins executing
+    - Remains enabled
+- Notation: hourglass symbol with a time expression string beneath it
 
+![Wait Time Action](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/ACT%20Lesson%20-%20Wait%20Time%20Action.svg)
 
 ### Use of Token Flows
 
