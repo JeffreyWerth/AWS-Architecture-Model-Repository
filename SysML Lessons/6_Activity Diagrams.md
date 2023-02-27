@@ -139,73 +139,78 @@ Notation: line segment
 ![Activity Final Node](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/ACT%20Lesson%20-%20Final%20Node.svg)
 
 ### Flow Final Node
-When a control token arrives at flow final node, only that token is destroyed
-Terminates a sequence of actions without terminating the activity
-Notation: hollow circle containing a X
+
+- When a control token arrives at flow final node, only that token is destroyed
+- Terminates a sequence of actions without terminating the activity
+- Notation: hollow circle containing a X
+
+![Flow Final Node](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/ACT%20Lesson%20-%20Flow%20FInal%20Node.svg)
 
 ### Decision Node
 
-Event has NOT occurred:
-When the event occurs, accept event action executes
-Event has occurred:
-Accept event action execution proceeds immediately
-Event occurrences are buffered until consumed by a behavior that cares
-Accept event action does NOT need any incoming edges
-Starts executing as soon as the activity begins executing
-Remains enabled
-Accept event action waiting for a signal has to have an output pin for each property of the signal being sent
-Notation: concave pentagon shaped like a pennant
-String inside OFTEN matches the name of a signal defined somewhere in the model
+- Marks the start of alternative sequences in an activity
+- Has a single incoming edge and 2 or more outgoing edges
+- Each outgoing edge has a Boolean expression called a guard 
+    - Guard notation: string between square brackets
+- When a token arrives at a decision node, all the guards are evaluated simultaneously
+- Token is passed to the edge whose guard evaluates to true at that moment
+- Token is only passed to one outgoing edge, NEVER multiple outgoing edges
+- Notation: hollow diamond
+
+![Decision Node](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/ACT%20Lesson%20-%20Decision%20Node.svg)
 
 ### Merge Node
 
-Marks the start of alternative sequences in an activity
-Has a single incoming edge and 2 or more outgoing edges
-Each outgoing edge has a Boolean expression called a guard
-Guard notation: string between square brackets
-When a token arrives at a decision node, all the guards are evaluated simultaneously
-Token is passed to the edge whose guard evaluates to true at that moment
-Token is only passed to one outgoing edge, NEVER multiple outgoing edges
-Notation: hollow diamond
+- Marks the end of alternative sequences in an activity
+- Has 2 or more incoming edges and a single outgoing edge
+- Token is immediately passed to the outgoing edge when it arrives on ANY of the incoming edges
+- Essential to model a loop correctly
+- Notation: hollow diamond
 
+![Merge Node](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/ACT%20Lesson%20-%20Merge%20Node.svg)
 
 ### Fork Node
 
-Marks the end of alternative sequences in an activity
-Has 2 or more incoming edges and a single outgoing edge
-Token is immediately passed to the outgoing edge when it arrives on ANY of the incoming edges
-Essential to model a loop correctly
-Notation: hollow diamond
+- Marks the start of concurrent sequences in an activity
+- Has a single incoming edge and 2 or more outgoing edges
+- When a token arrives at a fork node, it is duplicated and passed to each outgoing edge
+- Each copy of original token represents an independent, concurrent flow
+Notation: line segment
+
+![Fork Node](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/ACT%20Lesson%20-%20Fork%20Node.svg)
 
 ### Joint Node
 
-Marks the end of concurrent sequences in an activity
-Has 2 or more incoming edges and a single outgoing edge
-All incoming edges are control flows:
-A single control token is passed to the outgoing edge when a token arrives on EACH of the incoming edges
-All incoming edges are object flows:
-ALL object tokens are passed to the outgoing edge when a token arrives on EACH of the incoming edges
-Incoming edges are a mix of control and object flows:
-ALL object tokens and NO control tokens are passed to the outgoing edge when a token arrives on EACH of the incoming edges
-Notation: line segment
+- Marks the end of concurrent sequences in an activity
+- Has 2 or more incoming edges and a single outgoing edge
+- All incoming edges are control flows:
+    - A single control token is passed to the outgoing edge when a token arrives on EACH of the incoming edges
+- All incoming edges are object flows:
+    - ALL object tokens are passed to the outgoing edge when a token arrives on EACH of the incoming edges
+- Incoming edges are a mix of control and object flows:
+    - ALL object tokens and NO control tokens are passed to the outgoing edge when a token arrives on EACH of the incoming edges
+- Notation: line segment
 
+![Joint Node](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/ACT%20Lesson%20-%20Joint%20Node.svg)
 
 ## Use of Actions
 
-4 kinds of actions:
-Call behavior action
-Send signal action
-Accept event action
-Wait time action
-An action is an element of usage, a behavior is an element of definition
-An action represents the execution of a defined behavior
+- 4 kinds of actions:   
+    - Call behavior action
+    - Send signal action
+    - Accept event action
+    - Wait time action
+- An action is an element of usage, a behavior is an element of definition
+- An action represents the execution of a defined behavior
+
+![Use of Action]()
 
 ## Synchronous vs. Asynchronous
 
-Synchronous
-Invoke behavior and sender waits for reply
-Asynchronous
-Invoke behavior and sender does NOT wait for reply
+- Synchronous
+    - Invoke behavior and sender waits for reply
+- Asynchronous
+    - Invoke behavior and sender does NOT wait for reply
 
 ## Call Behavior Action
 
