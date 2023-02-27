@@ -109,31 +109,34 @@
 
 ## Use of Control Nodes
 
-7 kinds of control nodes:
-Initial node
-Activity Final node
-Flow Final node
-Decision node
-Merge node
-Fork node
-Join node
+- 7 kinds of control nodes:
+    - Initial node
+    - Activity Final node
+    - Flow Final node
+    - Decision node
+    - Merge node
+    - Fork node
+    - Join node
 
 ### Initial Node
 
-Marks the start of concurrent sequences in an activity
-Has a single incoming edge and 2 or more outgoing edges
-When a token arrives at a fork node, it is duplicated and passed to each outgoing edge
-Each copy of original token represents an independent, concurrent flow
+- Marks the start of concurrent sequences in an activity
+- Has a single incoming edge and 2 or more outgoing edges 
+- When a token arrives at a fork node, it is duplicated and passed to each outgoing edge
+- Each copy of original token represents an independent, concurrent flow
 Notation: line segment
+
+![Initial Node](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/ACT%20Lesson%20-%20Initial%20Node.svg)
 
 
 ### Activity Final Node
 
-When a control token arrives at an activity final node, the entire activity terminates
-If multiple edges are going into the activity final node, the first token to arrive terminates the activity
-If an activity has multiple activity final nodes, whichever node has a token arrive first terminates the activity
-Notation: circle containing a smaller filled in circle
+- When a control token arrives at an activity final node, the entire activity terminates
+- If multiple edges are going into the activity final node, the first token to arrive terminates the activity
+- If an activity has multiple activity final nodes, whichever node has a token arrive first terminates the activity
+- Notation: circle containing a smaller filled in circle
 
+![Activity Final Node](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/ACT%20Lesson%20-%20Final%20Node.svg)
 
 ### Flow Final Node
 When a control token arrives at flow final node, only that token is destroyed
