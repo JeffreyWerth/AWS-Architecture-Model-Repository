@@ -71,22 +71,25 @@
         - Type is the name of a block, value type, or signal defined within the model
         - Multiplicity is the number of object tokens the object node can hold at any given moment (default is 1:1)
 
-    ![Pin]](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/ACT%20Lesson%20-%20Pin.svg)
+    ![Pin](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/ACT%20Lesson%20-%20Pin.svg)
 
 ### Activity Parameter
 
-Input or output of the activity as a whole
-Attach an activity parameter to the frame of an activity diagram
-Notation:
-Rectangle sitting on the frame of an activity diagram with name string:
-<activity parameter name>:<type>[<multiplicity>]
-Activity parameter name is user defined
-Type is the name of a block, value type, or signal defined within the model
-Multiplicity is the number of object tokens the activity parameter can hold at any given moment/the number of object tokens required by an activity
-Optional activity parameter:
-Lower multiplicity of 0
-Optional input activity parameter: Activity can start with no object token at activity parameter
-Optional output pin: Activity can execute and produce no object token at activity parameter
+- Input or output of the activity as a whole
+- Attach an activity parameter to the frame of an activity diagram
+- Notation:
+    - Rectangle sitting on the frame of an activity diagram with name string:
+    <activity parameter name>:<type>[<multiplicity>]
+        - Activity parameter name is user defined
+        - Type is the name of a block, value type, or signal defined within the model
+        - Multiplicity is the number of object tokens the activity parameter can hold at any given moment/the number of object tokens required by an activity
+
+![Activity Parameter](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/ACT%20Lesson%20-%20Activity%20Parameter.svg)
+
+- Optional activity parameter:
+    - Lower multiplicity of 0
+    - Optional input activity parameter: Activity can start with no object token at activity parameter
+    - Optional output pin: Activity can execute and produce no object token at activity parameter
 
 ### Nonstreaming vs Streaming with Object Nodes
 
