@@ -214,118 +214,102 @@ Notation: line segment
 
 ## Call Behavior Action
 
-Specialized action that invokes another behavior when it becomes enabled
-Can call any of the 3 kinds of behavior
-Can represent behavioral decomposition on an activity diagram
-Notation: rectangle with rounded corners with name string
- <action name>:<Behavior name>
-Action name is user defined
-Behavior name MUST match the name of an interaction, a state machine, or an activity defined somewhere in the model
-Rake symbol in lower right corner conveys the behavior being called is an activity
-If a call behavior action invokes another activity, pins of call behavior action MUST match the activity parameters of called activity
+- Specialized action that invokes another behavior when it becomes enabled
+    - Can call any of the 3 kinds of behavior
+- Can represent behavioral decomposition on an activity diagram
+- Notation: rectangle with rounded corners with name string
+    <action name>:<Behavior name>
+    - Action name is user defined
+    - Behavior name MUST match the name of an interaction, a state machine, or an activity defined somewhere in the model
+- Rake symbol in lower right corner conveys the behavior being called is an activity
+- If a call behavior action invokes another activity, pins of call behavior action MUST match the activity parameters of called activity
+
+![Call Behavior Action](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/ACT%20Lesson%20-%20Call%20Behavior%20Action.svg)
 
 ### Send Signal Action
 
-An accept event action that waits for a time event occurrence
-Absolute time event: begins with the word “at”
-Relative time event: begins with the word “after”
-Becomes enabled when a control token arrives on its incoming control flow
-If absolute time event has already occurred:
-Wait time action completes immediately
-If absolute time event has NOT occurred:
-Wait time action waits for that time event to occur
-Clock for the relative time event begins when the wait time action becomes enabled
-Wait time action does NOT need any incoming edges
-Starts executing as soon as the activity begins executing
-Remains enabled
-Notation: hourglass symbol with a time expression string beneath it
+- Specialized kind of action that asynchronously generates and sends a signal instance to a target when it becomes enabled
+- Send signal action has to have an input pin for each property of the signal being sent
+- Signal can be sent to a block with behavior assigned or to a behavior
+- Notation: convex pentagon shaped like a signpost
+    - String inside MUST match the name of a signal defined somewhere in the model
 
+    ![Send Signal Action](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/ACT%20Lesson%20-%20Send%20Signal%20Action.svg)
 
 ### Accept Event Action
-Used in an activity to convey that the activity must wait for an asynchronous event occurrence before it can continue execution
-4 kinds of events:
-Signal event- the arrival of a signal instance at a target
-Time event- indicates that a given time interval has passed since current state entered (relative) or that given instance in time has arrived (absolute)
-Call event- receipt of a request to invoke a behavior or operation of a block
-Change event- Boolean expression that changes from false to true
 
-Event has NOT occurred:
-When the event occurs, accept event action executes
-Event has occurred:
-Accept event action execution proceeds immediately
-Event occurrences are buffered until consumed by a behavior that cares
-Accept event action does NOT need any incoming edges
-Starts executing as soon as the activity begins executing
+- Used in an activity to convey that the activity must wait for an asynchronous event occurrence before it can continue execution
+- 4 kinds of events:
+    - Signal event- the arrival of a signal instance at a target
+    - Time event- indicates that a given time interval has passed since current state entered (relative) or that given instance in time has arrived (absolute)
+    - Call event- receipt of a request to invoke a behavior or operation of a block 
+    - Change event- Boolean expression that changes from false to true
+
+- Event has NOT occurred:
+    - When the event occurs, accept event action executes
+- Event has occurred:
+    - Accept event action execution proceeds immediately
+- Event occurrences are buffered until consumed by a behavior that cares
+    - Accept event action does NOT need any incoming edges
+    - Starts executing as soon as the activity begins executing
 Remains enabled
-Accept event action waiting for a signal has to have an output pin for each property of the signal being sent
-Notation: concave pentagon shaped like a pennant
-String inside OFTEN matches the name of a signal defined somewhere in the model
+- Accept event action waiting for a signal has to have an output pin for each property of the signal being sent
+- Notation: concave pentagon shaped like a pennant
+    - String inside OFTEN matches the name of a signal defined somewhere in the model
+
+    ![Accept Event Action](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/ACT%20Lesson%20-%20Accept%20Event%20Action.svg)
 
 ### Wait Time Actions
 
-An accept event action that waits for a time event occurrence
-Absolute time event: begins with the word “at”
-Relative time event: begins with the word “after”
-Becomes enabled when a control token arrives on its incoming control flow
-If absolute time event has already occurred:
-Wait time action completes immediately
-If absolute time event has NOT occurred:
-Wait time action waits for that time event to occur
-Clock for the relative time event begins when the wait time action becomes enabled
-Wait time action does NOT need any incoming edges
-Starts executing as soon as the activity begins executing
-Remains enabled
-Notation: hourglass symbol with a time expression string beneath it
 
 
 ### Use of Token Flows
 
-Tokens are not model elements; token flow is an abstract concept
-2 kinds of tokens:
-Object tokens
-Control tokens
-Object token
-Represents an instance of a block, value type, or signal that you’ve created somewhere in your model hierarchy
-Represents an instance of matter, energy, or data that flows through an activity
-Can represent an input or an output of the activity as a whole
-Can represent an input or an output of an action within the activity
-Control token
-Represents the flow of control
-Does NOT represent anything physical; has no type
-No notion of time associated with token flow
+- Tokens are not model elements; token flow is an abstract concept
+- 2 kinds of tokens:
+    - Object tokens
+    - Control tokens
+- Object token
+    - Represents an instance of a block, value type, or signal that you’ve created somewhere in your model hierarchy
+    - Represents an instance of matter, energy, or data that flows through an activity
+    - Can represent an input or an output of the activity as a whole
+    - Can represent an input or an output of an action within the activity
+- Control token
+    - Represents the flow of control
+    - Does NOT represent anything physical; has no type
+    - No notion of time associated with token flow
 
 ### Use of Object Flows
-
-Kind of edge that transports object tokens
-Used to convey that instance of matter, energy, or data through an activity from one node to another when the activity executes during system operation
-Must ensure object nodes at ends of object flow have compatible types
-Types can be identical
-Upstream type can be a subtype of downstream type
-Notation: solid line with an open arrowhead
+- Kind of edge that transports object tokens
+- Used to convey that instance of matter, energy, or data through an activity from one node to another when the activity executes during system operation
+- Must ensure object nodes at ends of object flow have compatible types
+    - Types can be identical
+    - Upstream type can be a subtype of downstream type
+- Notation: solid line with an open arrowhead
 
 ### Use of Control Flows
 
-Kind of edge that transports control tokens
-Arrival of a control token enables an action requiring one
-Used to convey sequencing constraints among a set of action when object flows alone are not sufficient
-Notation: dashed line with open arrowhead or solid line with open arrowhead
+- Kind of edge that transports control tokens
+- Arrival of a control token enables an action requiring one
+- Used to convey sequencing constraints among a set of action when object flows alone are not sufficient
+- Notation: dashed line with open arrowhead or solid line with open arrowhead
 
 ## When Does Action Start?
 
-3 conditions MUST be satisfied for an action to start:
-The activity that owns the action is currently executing
-A control token arrives on each of the incoming control flows
-A sufficient number of object tokens arrive on each of the incoming object flows to satisfy the lower multiplicity of the respective input pin
-Multiple incoming edges represents an and condition NOT an or condition
-Tokens do NOT need to arrive at the same time, but token MUST be present on all incoming edges for the action to start
-An action does NOT need any incoming edges
-Action begins to execute as soon as the owning activity begins to execute
+- 3 conditions MUST be satisfied for an action to start:
+    - The activity that owns the action is currently executing
+    - A control token arrives on each of the incoming control flows
+    - A sufficient number of object tokens arrive on each of the incoming object flows to satisfy the lower multiplicity of the respective input pin
+- Multiple incoming edges represents an and condition NOT an or condition
+    - Tokens do NOT need to arrive at the same time, but token MUST be present on all incoming edges for the action to start
+- An action does NOT need any incoming edges
+    - Action begins to execute as soon as the owning activity begins to execute
 
 ## When Does and Activity End?
 
-When a token arrives at an activity final node
-When all the actions inside the activity come to an end
-If any action continues executing, the only way to terminate activity is an activity final node
+- When a token arrives at an activity final node
+- When all the actions inside the activity come to an end
+- If any action continues executing, the only way to terminate activity is an activity final node
 
 
 
