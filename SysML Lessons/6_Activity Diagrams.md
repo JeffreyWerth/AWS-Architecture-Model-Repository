@@ -93,16 +93,19 @@
 
 ### Nonstreaming vs Streaming with Object Nodes
 
-Nonstreaming
-Input object tokens consumed by actions and activities only at the moment they begin executing
-Output object tokens delivered only at the moment they finish executing
-Streaming
-Input object tokens consumed by actions and activities while behavior is executing
-Output object tokens delivered while behavior is executing
-Model continuous behavior
-Notation: {stream} at the end of the name string for a pin or an activity parameter
-An output pin and the input pin it is connected to do NOT have to both be streaming or nonstreaming, they are independent design decisions
-Object nodes are described as streaming or nonstreaming, NOT actions
+- Nonstreaming
+    - Input object tokens consumed by actions and activities only at the moment they begin executing
+    - Output object tokens delivered only at the moment they finish executing
+- Streaming
+    - Input object tokens consumed by actions and activities while behavior is executing
+    - Output object tokens delivered while behavior is executing
+    - Model continuous behavior
+    - Notation: {stream} at the end of the name string for a pin or an activity parameter
+
+![Streaming](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/ACT%20Lesson%20-%20Stream.svg)
+
+- An output pin and the input pin it is connected to do NOT have to both be streaming or nonstreaming, they are independent design decisions
+- Object nodes are described as streaming or nonstreaming, NOT actions
 
 ## Use of Control Nodes
 
