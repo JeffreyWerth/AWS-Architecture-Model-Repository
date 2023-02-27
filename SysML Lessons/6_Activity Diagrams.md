@@ -1,41 +1,46 @@
 # SysML Behavior and Behavior Diagrams
 
-A behavior is an element of definition
-3 kinds of behaviors:
-Activity
-State Machine
-Interaction
-Each kind of behavior has its own diagram
-3 types of behavioral diagrams:
-Activity Diagram (act)- specifies an Activity
-State Machine Diagram (stm)- specifies a State Machine
-Sequence Diagram (sd)- specifies an Interaction
+- A behavior is an element of definition
+- 3 kinds of behaviors:
+    - Activity
+    - State Machine
+    - Interaction
+- Each kind of behavior has its own diagram
+- 3 types of behavioral diagrams:
+    - Activity Diagram (act)- specifies an Activity
+    - State Machine Diagram (stm)- specifies a State Machine
+    - Sequence Diagram (sd)- specifies an Interaction
 
 ## Activities and Activity Diagrams
 
-Activity: behavior that specifies the transformation of inputs to outputs through a controlled sequence of actions
-Activity diagram: defines the actions in an activity along with the flow of input/output and control between them
-Express order of actions
-CAN express which structure performs each action
-Does NOT express which structure invokes each action
-Activity diagram frame:
-diagramKind abbreviation: act
-modelElementType: activity
-Model Element Name: namespace of model element represented by the diagram
+- Activity: behavior that specifies the transformation of inputs to outputs through a controlled sequence of actions
+- Activity diagram: defines the actions in an activity along with the flow of input/output and control between them
+    - Express order of actions
+    - CAN express which structure performs each action
+    - Does NOT express which structure invokes each action
+- Activity diagram frame:
+    - diagramKind abbreviation: act
+    - modelElementType: activity
+    - Model Element Name: namespace of model element represented by the diagram
+
+## Activity Diagram Frame Format
+
+![Frame Fromat](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/ACT%20Lesson%20-%20Frame%20Format.svg)
+
 
 ## Use of Object Nodes
 
-2 kinds of elements an activity can own:
-Node
-Edge
-3 kinds of nodes:
-Object Node
-Control Node
-Action
-2 kinds of edges:
-Object Flow
-Control Flow
-An activity is a set of nodes connected by edges
+- 2 kinds of elements an activity can own:
+    - Node
+    - Edge
+- 3 kinds of nodes:
+    - Object Node
+    - Control Node
+    - Action
+- 2 kinds of edges:
+    - Object Flow
+    - Control Flow
+- An activity is a set of nodes connected by edges
 
 ### Basic Object Node
 
