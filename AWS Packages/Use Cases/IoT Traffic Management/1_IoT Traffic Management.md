@@ -1,27 +1,30 @@
 # Stakeholder Needs and Problem Statement
-*State the motivation of the project and the Stakeholder needs in a couple paragraphs.
+- Exchanging near real-time traffic data and control information to support a regeional traffic management strategy under flood conditions within the city of Charleston.
+- Providing near real time traffic information for use by emergency management, transit management, maintenance and construction management. Traffic and iincident information is collected by the remote traffic monitoring system.
 
 ## Use Case Specification
 Use case name:
-*A verb phrase
+Predict Traffic Patterns
 
 ## Scope:
 *the entity that owns (provides) the use case (for example, the name of an organization, system, subsystem, or component)
 
 ## Primary Actor:
-*the actor that invokes the use case (the actor whose goal the use case represents)
+Traffic Controller
 
 ## Supporting (secondary) actors:
-a*ctors that provide a service to the system (participate in the use case by performing actions)
+IoT Sensor
+- smart camera
+- flood sensor
 
 ## Stakeholder:
-*someone or something with a vested interest in the behavior of the system
+Traffic Management Center
 
 ## Preconditions:
-*the conditions that must be true for this use case to begin
+IoT Sensors has 5G support as gateway to the internet to post data to Cloud Service databases back end resoruces.
 
 ## Guarantees (postconditions):
-*the conditions that must be true at the end of the use case
+As IoT sensor connetcts to the network, data will be posted to a database for remote traffic monitoring system to Predict Traffic Patterns under flood conditions aroung the city of Charleston.
 
 ## Trigger:
 *the event that gets the use case started
@@ -30,7 +33,8 @@ a*ctors that provide a service to the system (participate in the use case by per
 *the scenario (the sequence of steps) in which nothing goes wrong
 
 ## Extensions (alternative branches):
-*alternative sequences of steps branching off the main success scenario
+- Connect to Network
+- Post Data
 
 ## Related Information:
 *whatever your project needs for additional information
