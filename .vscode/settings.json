@@ -1,3 +1,4 @@
 {
-  "cSpell.words": ["Analyserfor", "drawio"]
+  "cSpell.words": ["Analyserfor", "drawio"],
+  "githubPullRequests.ignoredPullRequestBranches": ["main"]
 }

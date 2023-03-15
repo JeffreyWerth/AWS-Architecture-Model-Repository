@@ -20,7 +20,7 @@ A Block Definition Diagram is a static structural diagram that shows system comp
 The purpose of Block Definition Diagrams is to specify system static structures that be used for Control Objects, Data Objects, and Interface Objects.
 
 To learn more about Block Definition Diagrams, follow the link to the summary lesson on bdd
-(https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/5_Block%20Definition%20Diagram%2C%20Blocks%20and%20Properties.md)
+(https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/4_BDDS%20and%20Elements%20of%20Definition%20vs%20Usage.md)
 
 ## Internal Block Diagram (ibd)
 

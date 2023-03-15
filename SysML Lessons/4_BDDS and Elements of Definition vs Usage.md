@@ -1,4 +1,41 @@
-# Element of Definition
+# Block Definition Diagrams (BDD)
+
+A Block Definition Diagram is a static structural diagram that shows system components, their contents (Properties, Behaviors, Constraints), Interfaces, and relationships.
+
+*Lesson 5 reading: SysML Distilled - A Brief Guide to the Systems Modeling Language 1st Edition Chapter 3 Block Definition Diagrams*
+
+## Purpose and Use
+
+- BDD: Express information about a system's structure
+- BDD model elements: blocks, actors, value types, constraint blocks, flow specifications, & interfaces
+  - Elements that appear on a BDD = elements of definition
+- BDDs display the structural relationships among elements of definition
+
+### BDD Frame
+
+- The BDD frame
+  - Diagram kind abbreviation:bdd
+  - Model elements type that the diagram frame represents: package, model, model library, view, block, constraintBlock
+  - Model element the diagram represents: namespace (model element that contains other model elements)
+
+    ![BDD Frame](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/BDD%20Lesson%20-%20BDD%20Frame.svg)
+
+## Use of Block Features
+
+- Elements of Definition vs. Elements of Usage (reference Lesson 4 Tables)
+  - Definition of types
+    - Notation: name only
+      - S3_bucket
+  - Usage (instances) of types
+    - Notation: name and type; separate by colon
+      - S3_bucket : S3
+- Block: basic unit of structure in SYSML
+  - Represents a type of entity, not an instance
+- Block notation: rectangle with stereotype <<<block>>> preceding the name in the name compartment
+
+    ![Block](https://github.com/kentmichae/AWS-Architecture-Model-Repository/blob/main/SysML%20Lessons/Lesson%20Views%20and%20SVGs/BDD%20Lesson%20-%20block.svg)
+
+## Element of Definition and Usage
 
 The term definition refers to a model element that is a classifier or type such as a block. The element is defined by specifying its features such as the properties and operations of a block. The term usage identifies a defined element in a particular context; for now I want you to understand this concept on this lesson, bellow are some examples.
 
@@ -42,6 +79,6 @@ Elements of Usage
 | Flow Property                                     | types | Block, Value Type, or Signal            |
 | Connector                                         | types | Association                             |
 | Call Behavior Action                              | types | Activity, Interaction, or State Mahcine |
-| Object Nide (includes Pin and Activity Parameter) | types | Block, Value Type, or Signal            |
+| Object Node (includes Pin and Activity Parameter) | types | Block, Value Type, or Signal            |
 | Lifeline                                          | types | Block or Actor                          |
 
